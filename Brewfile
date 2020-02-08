@@ -2,8 +2,6 @@
 #
 # Maintained by Hardy Ferentschik
 
-cask_args appdir: '/Applications'
-
 # Install and manage GUI macOS applications
 tap 'homebrew/cask'
 
@@ -29,16 +27,12 @@ tap 'buo/cask-upgrade'
   brew 'readline'
   # Core application library for C
   brew 'glib'
-  # GNU Transport Layer Security (TLS) Library
-  brew 'gnutls'
   # GNU multiple precision arithmetic library
   brew 'gmp'
   # Collection of portable C++ source libraries
   brew 'boost'
   # Vector graphics library with cross-device output support
   brew 'cairo'
-  # Framework for layout and rendering of i18n text
-  brew 'pango'
   # Image manipulation library
   brew 'jpeg'
   # Library for manipulating PNG images
@@ -59,6 +53,8 @@ tap 'buo/cask-upgrade'
   cask 'onyx'
   # Swiss Army Knife for macOS
   brew 'm-cli'
+  # System monitor for tray
+  cask 'istat-menus'
 
   ## Mac OS X: Quick Look Plugins
   # An Application for Inspecting macOS Installer Packages
@@ -79,6 +75,8 @@ tap 'buo/cask-upgrade'
   brew 'iftop'
   # Top-like interface for container metrics
   brew 'ctop'
+  # Keep Mac clean
+  cask 'cleanmymac'
 ### }}}
 
 
@@ -89,6 +87,9 @@ tap 'buo/cask-upgrade'
   ## Recovery
   # Console program to recover files based on their headers and footers
   brew 'foremost'
+
+  ## Online storage
+  cask 'dropbox'
 ### }}}
 
 ### Web {{{
@@ -119,25 +120,26 @@ tap 'buo/cask-upgrade'
   brew 'hugo'
 ### }}}
 
+### Audio {{{
+  ## Player
+  cask 'spotify'
+### }}}
 
 ### Video {{{
   ## Player
   # VLC media player
   cask 'vlc'
-  # Home theater/media center software and entertainment hub for digital media
-  cask 'kodi'
 
   ## Recorder
   # An open-source screen recorder built with web technology
   cask 'kap'
+
+  ## Pair programming
+  # Mac only pair programming tool
+  cask 'tuple'
 ### }}}
 
-
 ### Image {{{
-  ## Viewer
-  # Streamlined and convenient image viewer and browser
-  cask 'xee'
-
   ## Utility
   # Perl lib for reading and writing EXIF metadata
   brew 'exiftool'
@@ -147,13 +149,14 @@ tap 'buo/cask-upgrade'
   cask 'zeplin'
 ### }}}
 
-
 ### Messaging {{{
   cask 'slack'
   cask 'telegram'
+  cask 'whatsapp'
+  cask 'franz'
 ### }}}
 
-### Messaging {{{
+### Email {{{
   brew 'neomutt'
   brew 'offlineimap'
   # IMAP filtering 
@@ -161,7 +164,6 @@ tap 'buo/cask-upgrade'
   # Mail indexing
   brew 'mu'
 ### }}} 
-
 
 ### Network {{{
   ## Analysis
@@ -181,24 +183,14 @@ tap 'buo/cask-upgrade'
   ## Utility
   # MAC spoofing GUI for macOS
   cask 'linkliar'
-
-  brew 'wireshark'
 ### }}}
 
-
 ### Keyboard & Mouse {{{
-  # Network KVM Switch(Mouse and Keyboard Sharing)
-  cask 'synergy'
-  # Customize various input devices on your Mac
-  cask 'bettertouchtool'
   # Know your short cuts
   cask 'cheatsheet'
-  # A powerful and stable keyboard customizer for macOS
-  cask 'karabiner-elements'
   # A simple utility application to trigger haptic feedback when tapping Touch Bar
   cask 'haptickey'
 ### }}}
-
 
 ### Utility {{{
   # GNU File, Shell, and Text utilities
@@ -234,6 +226,17 @@ tap 'buo/cask-upgrade'
   brew 'jq'
   brew 'yq'
   brew 'xmlstarlet'
+
+  cask 'evernote'
+
+  # Cut Raspberry Pi images
+  cask 'balenaetcher'
+
+  # MySQL DB viewer
+  cask 'sequel-pro'
+
+  # ToDo list managment
+  cask 'remember-the-milk'
 ### }}}
 
 ### Programming Language {{{
@@ -267,10 +270,6 @@ tap 'buo/cask-upgrade'
   # Java-based project management
   brew 'maven'
 
-  ## C Family
-  # GNU compiler collection
-  brew 'gcc'
-
   ## Shellscript
   # Static analysis and lint tool, for (ba)sh scripts
   brew 'shellcheck'
@@ -288,6 +287,9 @@ tap 'buo/cask-upgrade'
   brew 'ruby'
   brew 'rbenv'
   brew 'rbspy'
+
+  ## Dev Docs
+  cask 'dash'
 ### }}}
 
 ### VCS {{{
@@ -312,8 +314,6 @@ tap 'buo/cask-upgrade'
   cask 'gitee'
   # Extend your GitHub workflow beyond your browser <Paste>
   cask 'github'
-  # The legendary Git GUI client
-  cask 'gitkraken'
 
   ## Mercurial
   # Scalable distributed version control system
@@ -334,6 +334,8 @@ tap 'buo/cask-upgrade'
   brew 'vim'
   # Ambitious Vim-fork focused on extensibility and agility
   brew 'neovim'
+  # Default catch all editor
+  cask 'sublime-text'
 
   ## Editor: Microsoft Visual Studio Code
   cask 'visual-studio-code'
@@ -343,6 +345,7 @@ tap 'buo/cask-upgrade'
   cask 'goland'
   cask 'rubymine'
   cask 'intellij-idea'
+  cask 'datagrip'
 ### }}}
 
 
@@ -392,12 +395,14 @@ tap 'buo/cask-upgrade'
   ## Container
   # Docker Community Edition for Mac (Edge)
   cask 'docker-edge'
+  # Container inspector
+  brew 'dive'
   # The lazier way to manage everything docker
   brew 'lazydocker'
   # Kubernetes command-line interface
   brew 'kubernetes-cli'
   # The Kubernetes package manager
-  brew 'kubernetes-helm'
+  #brew 'kubernetes-helm@2'
   # Customization of kubernetes YAML configurations
   brew 'kustomize'
   # Tool that can switch between kubectl contexts easily and create aliases
@@ -457,7 +462,7 @@ tap 'buo/cask-upgrade'
   brew 'circleci'
 ### }}}
 
-### DevOps {{{
+### Cloud {{{
   brew 'awscli'
   brew 'awslogs'
 ### }}}  
@@ -476,6 +481,9 @@ tap 'buo/cask-upgrade'
 
   # Hashicorp secret store
   brew 'vault'
+
+  # GPG key management
+  cask 'gpg-suite'
 ### }}}
 
 ### Hacking {{{
@@ -540,7 +548,6 @@ tap 'buo/cask-upgrade'
 ### }}}
 
 ### App Store {{{
-appstore 626137367 Baby Monitor 3G (4.10.2)
 appstore 1462114288 Grammarly for Safari (9.10)
 appstore 409183694 Keynote (9.2.1)
 appstore 405399194 Kindle (1.26.1)

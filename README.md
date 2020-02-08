@@ -2,4 +2,4 @@
 
 Package list for [homebrew](http://brew.sh/).
 
-Managed by [homebrew-file](https://github.com/rcmdnk/homebrew-file).
+Managed by [homebrew-file](https://github.com/hferentschik/homebrew-brewfile).
