@@ -325,6 +325,8 @@ tap 'buo/cask-upgrade'
 
   # GitHub workflow
   brew 'hub'
+
+  brew 'github/gh/gh'
 ### }}}
 
 
@@ -419,6 +421,8 @@ tap 'buo/cask-upgrade'
   brew 'kops'
   # Kube in Docker
   brew 'kind'
+  # K9s backups
+  brew 'velero'
 ### }}}
 
 
