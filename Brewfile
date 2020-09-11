@@ -24,12 +24,14 @@ brew 'circleci'
 brew 'cmake'
 brew 'coreutils'
 brew 'ctop'
+brew 'direnv'
 brew 'dive'
 brew 'exa'
 brew 'exiftool'
 brew 'expect'
 brew 'fdupes'
 brew 'fish'
+brew 'fluxctl'
 brew 'fontconfig'
 brew 'foremost'
 brew 'freetype'
@@ -82,6 +84,7 @@ brew 'kind'
 brew 'kops'
 brew 'kubectx'
 brew 'kubernetes-cli'
+brew 'kubeseal'
 brew 'kustomize'
 brew 'lazydocker'
 brew 'lazygit'
@@ -178,6 +181,7 @@ brew 'vault'
 brew 'velero'
 brew 'vim'
 brew 'vnstat'
+brew 'w3m'
 brew 'watch'
 brew 'webp'
 brew 'wget'
@@ -291,7 +295,9 @@ tap 'derailed/k9s'
 tap 'github/gh'
 
 tap 'maxandersen/tap'
-brew 'jbang'
+
+tap 'norwoodj/tap'
+brew 'helm-docs'
 
 tap 'rcmdnk/file'
 brew 'brew-file'
@@ -312,6 +318,6 @@ mas 'Keynote (10.1)', id: 409183694
 mas 'Kindle (1.29.0)', id: 405399194
 mas 'Numbers (10.1)', id: 409203825
 mas 'Pages (10.1)', id: 409201541
-mas 'Pomodoro-Tracker (16.8.1)', id: 1396146802
+mas 'Pomodoro-Tracker (16.12.4)', id: 1396146802
 mas 'TweetDeck (3.16.1)', id: 485812721
 mas 'YubiKey Personalization Tool (3.1.24)', id: 638161122
