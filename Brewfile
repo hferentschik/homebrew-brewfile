@@ -219,6 +219,7 @@ brew 'ruby'
 brew 'ruby-build'
 brew 'screen'
 brew 'shellcheck'
+brew 'six'
 brew 'skaffold'
 brew 'sqlite'
 brew 'subversion'
@@ -397,15 +398,16 @@ cask 'station'
 mas 'Baby Monitor 3G (4.11.0)', id: 626137367
 mas 'Disk Speed Test (3.3)', id: 425264550
 mas 'Evernote Web Clipper (1.0.11)', id: 1481669779
-mas 'Grammarly for Safari (9.30)', id: 1462114288
+mas 'Grammarly for Safari (9.34)', id: 1462114288
 mas 'iMovie (10.2.3)', id: 408981434
-mas 'Jira (128.1.0)', id: 1475897096
+mas 'Jira (131.1.0)', id: 1475897096
 mas 'JustJoin (1.4.1)', id: 1514260034
-mas 'Keynote (11.0.1)', id: 409183694
+mas 'Keynote (11.1)', id: 409183694
 mas 'Kindle (1.31.0)', id: 405399194
 mas 'Magnet (2.6.0)', id: 441258766
-mas 'Numbers (11.0)', id: 409203825
-mas 'Pages (11.0)', id: 409201541
+mas 'MQTT Explorer (0.3.5)', id: 1455214828
+mas 'Numbers (11.1)', id: 409203825
+mas 'Pages (11.1)', id: 409201541
 mas 'Pomodoro-Tracker (19.5.15)', id: 1396146802
 mas 'TweetDeck (3.18)', id: 485812721
 mas 'YubiKey Personalization Tool (3.1.24)', id: 638161122
