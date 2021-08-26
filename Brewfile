@@ -131,6 +131,7 @@ brew 'libpng'
 brew 'libproxy'
 brew 'libpthread-stubs'
 brew 'librsvg'
+brew 'libsodium'
 brew 'libssh2'
 brew 'libtasn1'
 brew 'libtermkey'
@@ -160,6 +161,7 @@ brew 'luajit'
 brew 'luajit-openresty'
 brew 'luarocks'
 brew 'luv'
+brew 'lxc'
 brew 'lz4'
 brew 'lzo'
 brew 'm-cli'
@@ -222,10 +224,12 @@ brew 'screen'
 brew 'shellcheck'
 brew 'six'
 brew 'skaffold'
+brew 'snap'
 brew 'snapcraft'
-brew 'sponge'
 brew 'sops'
+brew 'sponge'
 brew 'sqlite'
+brew 'squashfs'
 brew 'subversion'
 brew 'talloc'
 brew 'tcl-tk'
@@ -239,6 +243,7 @@ brew 'tig'
 brew 'tldr'
 brew 'tmux'
 brew 'tokyo-cabinet'
+brew 'tree-sitter'
 brew 'unbound'
 brew 'unibilium'
 brew 'utf8proc'
@@ -248,9 +253,11 @@ brew 'vim'
 brew 'vnstat'
 brew 'w3m'
 brew 'watch'
+brew 'waypoint'
 brew 'webp'
 brew 'wget'
 brew 'xapian'
+brew 'xdelta'
 brew 'xdot'
 brew 'xdotool'
 brew 'xkeyboardconfig'
@@ -365,7 +372,6 @@ tap 'derailed/k9s'
 tap 'github/gh'
 
 tap 'hashicorp/tap'
-brew 'waypoint'
 
 tap 'helm/tap'
 brew 'chart-releaser'
@@ -401,17 +407,18 @@ cask 'station'
 # App Store applications
 mas 'Baby Monitor 3G (4.11.0)', id: 626137367
 mas 'Disk Speed Test (3.3)', id: 425264550
-mas 'Evernote Web Clipper (1.0.11)', id: 1481669779
-mas 'Grammarly for Safari (9.34)', id: 1462114288
-mas 'iMovie (10.2.3)', id: 408981434
-mas 'Jira (131.1.0)', id: 1475897096
+mas 'Evernote Web Clipper (7.14.0)', id: 1481669779
+mas 'Grammarly for Safari (9.36)', id: 1462114288
+mas 'iMovie (10.2.5)', id: 408981434
+mas 'Jira (136.0.0)', id: 1475897096
 mas 'JustJoin (1.4.1)', id: 1514260034
 mas 'Keynote (11.1)', id: 409183694
-mas 'Kindle (1.31.0)', id: 405399194
+mas 'Kindle (1.32.0)', id: 405399194
 mas 'Magnet (2.6.0)', id: 441258766
 mas 'MQTT Explorer (0.3.5)', id: 1455214828
 mas 'Numbers (11.1)', id: 409203825
 mas 'Pages (11.1)', id: 409201541
-mas 'Pomodoro-Tracker (19.5.15)', id: 1396146802
+mas 'Pomodoro-Tracker (20.4.1)', id: 1396146802
 mas 'TweetDeck (3.18)', id: 485812721
+mas 'Webcam Settings (3.0)', id: 533696630
 mas 'YubiKey Personalization Tool (3.1.24)', id: 638161122
