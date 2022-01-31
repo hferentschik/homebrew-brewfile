@@ -28,8 +28,8 @@ brew 'boost'
 brew 'brew-pip'
 brew 'brotli'
 brew 'c-ares'
+brew 'ca-certificates'
 brew 'cairo'
-brew 'chart-releaser'
 brew 'circleci'
 brew 'clusterctl'
 brew 'cmake'
@@ -64,6 +64,7 @@ brew 'gdbm'
 brew 'gdk-pixbuf'
 brew 'gettext'
 brew 'gh'
+brew 'giflib'
 brew 'git'
 brew 'git-extras'
 brew 'git-flow'
@@ -92,11 +93,12 @@ brew 'helm'
 brew 'helmfile'
 brew 'hicolor-icon-theme'
 brew 'highlight'
-brew 'httrack'
 brew 'htop'
 brew 'httpie'
+brew 'httrack'
 brew 'hub'
 brew 'hugo'
+brew 'hunspell'
 brew 'icu4c'
 brew 'iftop'
 brew 'imapfilter'
@@ -120,11 +122,13 @@ brew 'lazydocker'
 brew 'lazygit'
 brew 'libassuan'
 brew 'libb2'
+brew 'libcbor'
 brew 'libcerf'
 brew 'libepoxy'
 brew 'libev'
 brew 'libevent'
 brew 'libffi'
+brew 'libfido2'
 brew 'libgcrypt'
 brew 'libgpg-error'
 brew 'libidn'
@@ -132,6 +136,7 @@ brew 'libidn2'
 brew 'libksba'
 brew 'libmetalink'
 brew 'libmpc'
+brew 'libnghttp2'
 brew 'libpng'
 brew 'libproxy'
 brew 'libpthread-stubs'
@@ -173,6 +178,7 @@ brew 'm-cli'
 brew 'm4'
 brew 'mas'
 brew 'maven'
+brew 'md4c'
 brew 'mercurial'
 brew 'mitmproxy'
 brew 'mpdecimal'
@@ -214,6 +220,7 @@ brew 'pkg-config'
 brew 'protobuf'
 brew 'py3cairo'
 brew 'pygobject3'
+brew 'python@3.10'
 brew 'python@3.8'
 brew 'python@3.9'
 brew 'qt'
@@ -288,7 +295,6 @@ cask 'font-fira-mono'
 cask 'font-fontawesome'
 cask 'font-hack'
 cask 'font-inconsolata'
-cask 'font-ionicons'
 cask 'font-simple-line-icons'
 cask 'font-source-code-pro'
 cask 'font-ubuntu'
@@ -320,7 +326,6 @@ cask 'gimp'
 cask 'gitee'
 cask 'github'
 cask 'goland'
-cask 'google-backup-and-sync'
 cask 'google-chrome'
 cask 'google-drive'
 cask 'google-drive-file-stream'
@@ -406,25 +411,27 @@ tap 'wata727/tflint'
 # Other Cask applications
 cask 'flash-npapi'
 cask 'flash-ppapi'
+cask 'font-ionicons'
 cask 'font-source-han-noto-cjk'
+cask 'google-backup-and-sync'
 cask 'java'
 cask 'station'
 
 # App Store applications
 mas 'Baby Monitor 3G (4.11.0)', id: 626137367
 mas 'Disk Speed Test (3.3)', id: 425264550
-mas 'Evernote Web Clipper (7.14.0)', id: 1481669779
-mas 'Grammarly for Safari (9.36)', id: 1462114288
+mas 'Evernote Web Clipper (7.18.0)', id: 1481669779
+mas 'Grammarly for Safari (9.50)', id: 1462114288
 mas 'iMovie (10.2.5)', id: 408981434
-mas 'Jira (136.0.0)', id: 1475897096
+mas 'Jira (139.0.0)', id: 1475897096
 mas 'JustJoin (1.4.1)', id: 1514260034
 mas 'Keynote (11.1)', id: 409183694
-mas 'Kindle (1.32.0)', id: 405399194
-mas 'Magnet (2.6.0)', id: 441258766
+mas 'Kindle (1.33.0)', id: 405399194
+mas 'Magnet (2.7.0)', id: 441258766
 mas 'MQTT Explorer (0.3.5)', id: 1455214828
 mas 'Numbers (11.1)', id: 409203825
 mas 'Pages (11.1)', id: 409201541
-mas 'Pomodoro-Tracker (20.4.1)', id: 1396146802
+mas 'Pomodoro-Tracker (20.6.3)', id: 1396146802
 mas 'TweetDeck (3.18)', id: 485812721
 mas 'Webcam Settings (3.0)', id: 533696630
 mas 'YubiKey Personalization Tool (3.1.24)', id: 638161122
