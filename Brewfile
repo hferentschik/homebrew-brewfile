@@ -420,8 +420,8 @@ cask 'station'
 # App Store applications
 mas 'Baby Monitor 3G (4.11.0)', id: 626137367
 mas 'Disk Speed Test (3.3)', id: 425264550
-mas 'Evernote Web Clipper (7.18.0)', id: 1481669779
-mas 'Grammarly for Safari (9.50)', id: 1462114288
+mas 'Evernote Web Clipper (7.19.0)', id: 1481669779
+mas 'Grammarly for Safari (9.52)', id: 1462114288
 mas 'iMovie (10.2.5)', id: 408981434
 mas 'Jira (139.0.0)', id: 1475897096
 mas 'JustJoin (1.4.1)', id: 1514260034
