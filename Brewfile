@@ -42,6 +42,7 @@ brew 'coreutils'
 brew 'ctop'
 brew 'curl'
 brew 'dbus'
+brew 'delve'
 brew 'difftastic'
 brew 'direnv'
 brew 'dive'
@@ -120,6 +121,7 @@ brew 'isl'
 brew 'jasper'
 brew 'jemalloc'
 brew 'jpeg'
+brew 'jpeg-turbo'
 brew 'jpeg-xl'
 brew 'jq'
 brew 'k9s'
@@ -230,6 +232,7 @@ brew 'openssl@3'
 brew 'p11-kit'
 brew 'p7zip'
 brew 'packer'
+brew 'pandoc'
 brew 'pango'
 brew 'parallel'
 brew 'pcre'
@@ -241,6 +244,7 @@ brew 'pipenv'
 brew 'pixman'
 brew 'pkg-config'
 brew 'protobuf'
+brew 'pstree'
 brew 'py3cairo'
 brew 'pyenv'
 brew 'pygobject3'
@@ -255,6 +259,7 @@ brew 'rbspy'
 brew 'rclone'
 brew 'readline'
 brew 'reattach-to-user-namespace'
+brew 'ripgrep'
 brew 'rtmpdump'
 brew 'ruby'
 brew 'ruby-build'
@@ -342,7 +347,6 @@ cask 'bartender'
 cask 'cakebrew'
 cask 'cheatsheet'
 cask 'dash'
-cask 'dashlane'
 cask 'datagrip'
 cask 'dropbox'
 cask 'electron-fiddle'
@@ -368,6 +372,8 @@ cask 'kap'
 cask 'lens'
 cask 'linkliar'
 cask 'macfuse'
+cask 'meetingbar'
+cask 'mqtt-explorer'
 cask 'multipass'
 cask 'murus'
 cask 'ngrok'
@@ -423,6 +429,7 @@ brew 'sce'
 brew 'to-prod'
 brew 'to-staging'
 brew 'trigger-ci'
+cask 'ddev'
 cask 'ddtool'
 cask 'tctl-data-converter'
 cask 'tctl-local-auth'
@@ -468,10 +475,14 @@ tap 'wata727/tflint'
 
 tap 'weaveworks/tap'
 
+# Other Cask applications
+cask 'dashlane'
+
 # App Store applications
-mas 'GarageBand (10.4.5)', id: 682658836
-mas 'iMovie (10.3.1)', id: 408981434
-mas 'Keynote (11.2)', id: 409183694
-mas 'Magnet (2.8.0)', id: 441258766
-mas 'Numbers (11.2)', id: 409203825
-mas 'Pages (11.2)', id: 409201541
+mas 'GarageBand (10.4.6)', id: 682658836
+mas 'iMovie (10.3.3)', id: 408981434
+mas 'Keynote (12.1)', id: 409183694
+mas 'Kindle (1.37.0)', id: 405399194
+mas 'Magnet (2.9.0)', id: 441258766
+mas 'Numbers (12.1)', id: 409203825
+mas 'Pages (12.1)', id: 409201541
