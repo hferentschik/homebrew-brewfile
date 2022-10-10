@@ -493,7 +493,7 @@ cask 'dashlane'
 mas 'GarageBand (10.4.6)', id: 682658836
 mas 'iMovie (10.3.4)', id: 408981434
 mas 'Keynote (12.1)', id: 409183694
-mas 'Kindle (1.38.0)', id: 405399194
+mas 'Kindle (1.39.0)', id: 405399194
 mas 'Magnet (2.9.0)', id: 441258766
 mas 'Numbers (12.1)', id: 409203825
 mas 'Pages (12.1)', id: 409201541
