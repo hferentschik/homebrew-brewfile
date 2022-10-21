@@ -425,6 +425,7 @@ brew 'pack'
 tap 'buo/cask-upgrade'
 
 tap 'datadog/tap'
+brew 'atlas'
 brew 'devkube'
 brew 'docker-local-dev'
 brew 'kubectl-analyse'
