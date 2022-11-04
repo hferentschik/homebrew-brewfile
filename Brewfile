@@ -491,10 +491,11 @@ tap 'weaveworks/tap'
 cask 'dashlane'
 
 # App Store applications
-mas 'GarageBand (10.4.6)', id: 682658836
-mas 'iMovie (10.3.4)', id: 408981434
-mas 'Keynote (12.1)', id: 409183694
+mas 'Galaxy (1.2.2)', id: 572868480
+mas 'GarageBand (10.4.7)', id: 682658836
+mas 'iMovie (10.3.5)', id: 408981434
+mas 'Keynote (12.2)', id: 409183694
 mas 'Kindle (1.39.0)', id: 405399194
-mas 'Magnet (2.9.0)', id: 441258766
-mas 'Numbers (12.1)', id: 409203825
-mas 'Pages (12.1)', id: 409201541
+mas 'Magnet (2.10.0)', id: 441258766
+mas 'Numbers (12.2)', id: 409203825
+mas 'Pages (12.2)', id: 409201541
