@@ -165,7 +165,6 @@ brew 'libnghttp2'
 brew 'libpng'
 brew 'libproxy'
 brew 'libpthread-stubs'
-brew 'libpython-tabulate'
 brew 'librsvg'
 brew 'libsodium'
 brew 'libssh2'
@@ -260,6 +259,8 @@ brew 'pstree'
 brew 'py3cairo'
 brew 'pyenv'
 brew 'pygobject3'
+brew 'python-tabulate'
+brew 'python-typing-extensions'
 brew 'python@3.10'
 brew 'python@3.11'
 brew 'python@3.8'
@@ -273,8 +274,8 @@ brew 'rbspy'
 brew 'rclone'
 brew 'readline'
 brew 'reattach-to-user-namespace'
-brew 'rlwrap'
 brew 'ripgrep'
+brew 'rlwrap'
 brew 'rtmpdump'
 brew 'ruby'
 brew 'ruby-build'
@@ -444,12 +445,12 @@ brew 'sce'
 brew 'to-prod'
 brew 'to-staging'
 brew 'trigger-ci'
+cask 'atlas'
 cask 'ddev'
 cask 'ddtool'
 cask 'tctl-data-converter'
 cask 'tctl-local-auth'
 cask 'tctx'
-brew 'datadog/tap/atlas'
 
 tap 'derailed/k9s'
 
@@ -498,8 +499,8 @@ cask 'dashlane'
 mas 'Galaxy (1.2.2)', id: 572868480
 mas 'GarageBand (10.4.7)', id: 682658836
 mas 'iMovie (10.3.5)', id: 408981434
-mas 'Keynote (12.2)', id: 409183694
+mas 'Keynote (12.2.1)', id: 409183694
 mas 'Kindle (1.39.0)', id: 405399194
 mas 'Magnet (2.10.0)', id: 441258766
-mas 'Numbers (12.2)', id: 409203825
-mas 'Pages (12.2)', id: 409201541
+mas 'Numbers (12.2.1)', id: 409203825
+mas 'Pages (12.2.1)', id: 409201541
