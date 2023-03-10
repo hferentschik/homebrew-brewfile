@@ -550,10 +550,10 @@ cask 'dashlane'
 
 # App Store applications
 mas 'Galaxy (1.2.2)', id: 572868480
-mas 'GarageBand (10.4.7)', id: 682658836
+mas 'GarageBand (10.4.8)', id: 682658836
 mas 'iMovie (10.3.5)', id: 408981434
 mas 'Keynote (12.2.1)', id: 409183694
-mas 'Kindle (1.39.0)', id: 405399194
+mas 'Kindle (1.40.0)', id: 405399194
 mas 'Magnet (2.11.0)', id: 441258766
 mas 'Numbers (12.2.1)', id: 409203825
 mas 'Pages (12.2.1)', id: 409201541
