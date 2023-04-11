@@ -169,6 +169,7 @@ brew 'libevent'
 brew 'libffi'
 brew 'libfido2'
 brew 'libgcrypt'
+brew 'libgit2'
 brew 'libgpg-error'
 brew 'libidn'
 brew 'libidn2'
@@ -459,6 +460,7 @@ cask 'sequel-pro'
 cask 'slack'
 cask 'spotify'
 cask 'sublime-text'
+cask 'suspicious-package'
 cask 'telegram'
 cask 'tunnelblick'
 cask 'tuple'
@@ -469,6 +471,7 @@ cask 'vlc'
 cask 'warp'
 cask 'whatsapp'
 cask 'wireshark'
+cask 'workspaces'
 cask 'xquartz'
 cask 'zeplin'
 
@@ -498,8 +501,8 @@ brew 'sce'
 brew 'to-prod'
 brew 'to-staging'
 brew 'trigger-ci'
-brew 'datadog-workspaces'
 cask 'atlas'
+cask 'datadog-workspaces'
 cask 'ddev'
 cask 'ddtool'
 cask 'tctl-data-converter'
@@ -546,6 +549,10 @@ tap 'wata727/tflint'
 
 tap 'weaveworks/tap'
 
+# Other Homebrew packages
+brew 'cffi'
+brew 'pycparser'
+
 # Other Cask applications
 cask 'dashlane'
 
@@ -553,8 +560,8 @@ cask 'dashlane'
 mas 'Galaxy (1.2.2)', id: 572868480
 mas 'GarageBand (10.4.8)', id: 682658836
 mas 'iMovie (10.3.5)', id: 408981434
-mas 'Keynote (12.2.1)', id: 409183694
-mas 'Kindle (1.40.0)', id: 405399194
+mas 'Keynote (13.0)', id: 409183694
+mas 'Kindle (1.40.1)', id: 405399194
 mas 'Magnet (2.11.0)', id: 441258766
-mas 'Numbers (12.2.1)', id: 409203825
-mas 'Pages (12.2.1)', id: 409201541
+mas 'Numbers (13.0)', id: 409203825
+mas 'Pages (13.0)', id: 409201541
