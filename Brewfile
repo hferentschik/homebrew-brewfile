@@ -66,7 +66,6 @@ brew 'etcd'
 brew 'exa'
 brew 'exiftool'
 brew 'expect'
-# brew 'fabric-cli'
 brew 'fdupes'
 brew 'ffmpeg'
 brew 'findutils'
@@ -260,6 +259,7 @@ brew 'nghttp2'
 brew 'nmap'
 brew 'node'
 brew 'node@14'
+brew 'node@16'
 brew 'notmuch'
 brew 'npth'
 brew 'nspr'
@@ -294,9 +294,11 @@ brew 'pipenv'
 brew 'pixman'
 brew 'pkg-config'
 brew 'procs'
+brew 'protobuf'
 brew 'pstree'
 brew 'py3cairo'
 brew 'pyenv'
+brew 'pygments'
 brew 'pygobject3'
 brew 'python-tabulate'
 brew 'python-typing-extensions'
@@ -562,7 +564,7 @@ cask 'dashlane'
 # App Store applications
 mas 'Galaxy (1.2.2)', id: 572868480
 mas 'GarageBand (10.4.8)', id: 682658836
-mas 'iMovie (10.3.5)', id: 408981434
+mas 'iMovie (10.3.6)', id: 408981434
 mas 'Keynote (13.0)', id: 409183694
 mas 'Kindle (1.40.1)', id: 405399194
 mas 'Magnet (2.11.0)', id: 441258766
