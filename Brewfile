@@ -2,6 +2,7 @@
 # tap repositories and their packages
 
 tap 'homebrew/core'
+brew 'abseil'
 brew 'act'
 brew 'adns'
 brew 'adr-tools'
@@ -39,6 +40,7 @@ brew 'brotli'
 brew 'c-ares'
 brew 'ca-certificates'
 brew 'cairo'
+brew 'cffi'
 brew 'circleci'
 brew 'cjson'
 brew 'clusterctl'
@@ -56,6 +58,7 @@ brew 'difftastic'
 brew 'direnv'
 brew 'dive'
 brew 'docker'
+brew 'docker-completion'
 brew 'docker-credential-helper-ecr'
 brew 'docutils'
 brew 'double-conversion'
@@ -296,8 +299,10 @@ brew 'pixman'
 brew 'pkg-config'
 brew 'procs'
 brew 'protobuf'
+brew 'protobuf@21'
 brew 'pstree'
 brew 'py3cairo'
+brew 'pycparser'
 brew 'pyenv'
 brew 'pygments'
 brew 'pygobject3'
@@ -437,7 +442,6 @@ cask 'goland'
 cask 'google-chrome'
 cask 'google-cloud-sdk'
 cask 'google-drive'
-cask 'google-drive-file-stream'
 cask 'gpg-suite'
 cask 'haptickey'
 cask 'insomnia'
@@ -555,19 +559,16 @@ tap 'wata727/tflint'
 
 tap 'weaveworks/tap'
 
-# Other Homebrew packages
-brew 'cffi'
-brew 'pycparser'
-
 # Other Cask applications
 cask 'dashlane'
+cask 'google-drive-file-stream'
 
 # App Store applications
 mas 'Galaxy (1.2.2)', id: 572868480
 mas 'GarageBand (10.4.8)', id: 682658836
 mas 'iMovie (10.3.6)', id: 408981434
-mas 'Keynote (13.0)', id: 409183694
+mas 'Keynote (13.1)', id: 409183694
 mas 'Kindle (1.40.1)', id: 405399194
 mas 'Magnet (2.11.0)', id: 441258766
-mas 'Numbers (13.0)', id: 409203825
-mas 'Pages (13.0)', id: 409201541
+mas 'Numbers (13.1)', id: 409203825
+mas 'Pages (13.1)', id: 409201541
