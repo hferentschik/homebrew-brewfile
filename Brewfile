@@ -2,6 +2,123 @@
 # tap repositories and their packages
 
 tap 'homebrew/core'
+
+tap 'homebrew/bundle'
+
+tap 'homebrew/cask-fonts'
+cask 'font-consolas-for-powerline'
+cask 'font-d2coding'
+cask 'font-dashicons'
+cask 'font-devicons'
+cask 'font-fira-code'
+cask 'font-fira-mono'
+cask 'font-fontawesome'
+cask 'font-hack'
+cask 'font-inconsolata'
+cask 'font-simple-line-icons'
+cask 'font-source-code-pro'
+cask 'font-ubuntu'
+
+tap 'homebrew/cask-versions'
+cask 'adoptopenjdk8'
+cask 'docker-edge'
+cask 'firefox-developer-edition'
+
+tap 'homebrew/services'
+
+tap 'homebrew/cask'
+
+tap 'benbjohnson/litestream'
+brew 'litestream'
+
+tap 'boz/repo'
+
+tap 'buildpacks/tap'
+brew 'pack'
+
+tap 'buo/cask-upgrade'
+
+tap 'dashlane/tap'
+brew 'dashlane-cli'
+
+tap 'datadog/tap'
+brew 'devkube'
+brew 'docker-local-dev'
+brew 'kubectl-analyse'
+brew 'kubectl-iscale'
+brew 'kubectl-multiexec'
+brew 'kubectl-template'
+brew 'latest-artifact'
+brew 'latest-chart'
+brew 'latest-datacenter-config'
+brew 'latest-image'
+brew 's22-checker'
+brew 'sce'
+brew 'to-prod'
+brew 'to-staging'
+brew 'trigger-ci'
+cask 'atlas'
+cask 'datadog-workspaces'
+cask 'ddev'
+cask 'ddr'
+cask 'ddtool'
+cask 'tctl-data-converter'
+cask 'tctl-local-auth'
+cask 'tctx'
+
+tap 'derailed/k9s'
+brew 'k9s'
+
+tap 'github/gh'
+
+tap 'goreleaser/tap'
+brew 'goreleaser'
+
+tap 'gromgit/fuse'
+brew 'sshfs-mac'
+
+tap 'hashicorp/tap'
+brew 'packer'
+brew 'terraform'
+brew 'vault'
+brew 'waypoint'
+
+tap 'helm/tap'
+brew 'chart-releaser'
+
+tap 'heroku/brew'
+brew 'heroku'
+brew 'heroku-node'
+
+tap 'maxandersen/tap'
+
+tap 'muesli/tap'
+brew 'duf'
+
+tap 'norwoodj/tap'
+brew 'helm-docs'
+
+tap 'rcmdnk/file'
+brew 'brew-file'
+
+tap 'stefanprodan/tap'
+brew 'timoni'
+
+tap 'tektoncd/tools'
+brew 'tektoncd-cli'
+
+tap 'thethingsnetwork/lorawan-stack'
+brew 'ttn-lw-cli'
+
+tap 'ubuntu/microk8s'
+brew 'microk8s'
+
+tap 'wata727/tflint'
+
+tap 'weaveworks/tap'
+brew 'eksctl'
+
+# Other Homebrew packages
 brew 'abseil'
 brew 'act'
 brew 'adns'
@@ -57,14 +174,11 @@ brew 'dialog'
 brew 'difftastic'
 brew 'direnv'
 brew 'dive'
-brew 'ddr'
 brew 'docker'
 brew 'docker-completion'
 brew 'docker-credential-helper-ecr'
 brew 'docutils'
 brew 'double-conversion'
-brew 'duf'
-brew 'eksctl'
 brew 'entr'
 brew 'etcd'
 brew 'exa'
@@ -112,7 +226,6 @@ brew 'gnutls'
 brew 'go'
 brew 'go-jira'
 brew 'gobject-introspection'
-brew 'goreleaser'
 brew 'gotop'
 brew 'gpgme'
 brew 'graphite2'
@@ -147,7 +260,7 @@ brew 'jpeg'
 brew 'jpeg-turbo'
 brew 'jpeg-xl'
 brew 'jq'
-brew 'k9s'
+brew 'jsoncpp'
 brew 'kind'
 brew 'kops'
 brew 'krew'
@@ -286,7 +399,6 @@ brew 'openssl@3'
 brew 'opus'
 brew 'p11-kit'
 brew 'p7zip'
-brew 'packer'
 brew 'pandoc'
 brew 'pango'
 brew 'parallel'
@@ -307,6 +419,8 @@ brew 'pycparser'
 brew 'pyenv'
 brew 'pygments'
 brew 'pygobject3'
+brew 'python-certifi'
+brew 'python-cryptography'
 brew 'python-tabulate'
 brew 'python-typing-extensions'
 brew 'python@3.10'
@@ -337,7 +451,6 @@ brew 'skaffold'
 brew 'snap'
 brew 'snapcraft'
 brew 'snappy'
-brew 'stefanprodan/tap/timoni'
 brew 'sops'
 brew 'speex'
 brew 'sponge'
@@ -349,8 +462,6 @@ brew 'svt-av1'
 brew 'talloc'
 brew 'tcl-tk'
 brew 'tctl'
-brew 'tektoncd-cli'
-brew 'terraform'
 brew 'terraform-docs'
 brew 'terragrunt'
 brew 'tesseract'
@@ -367,13 +478,11 @@ brew 'tree-sitter'
 brew 'unbound'
 brew 'unibilium'
 brew 'utf8proc'
-brew 'vault'
 brew 'velero'
 brew 'vim'
 brew 'vnstat'
 brew 'w3m'
 brew 'watch'
-brew 'waypoint'
 brew 'webp'
 brew 'wget'
 brew 'x264'
@@ -397,30 +506,7 @@ brew 'zsh'
 brew 'zsh-lovers'
 brew 'zstd'
 
-tap 'homebrew/bundle'
-
-tap 'homebrew/cask-fonts'
-cask 'font-consolas-for-powerline'
-cask 'font-d2coding'
-cask 'font-dashicons'
-cask 'font-devicons'
-cask 'font-fira-code'
-cask 'font-fira-mono'
-cask 'font-fontawesome'
-cask 'font-hack'
-cask 'font-inconsolata'
-cask 'font-simple-line-icons'
-cask 'font-source-code-pro'
-cask 'font-ubuntu'
-
-tap 'homebrew/cask-versions'
-cask 'adoptopenjdk8'
-cask 'docker-edge'
-cask 'firefox-developer-edition'
-
-tap 'homebrew/services'
-
-tap 'homebrew/cask'
+# Other Cask applications
 cask 'alfred'
 cask 'aws-vault'
 cask 'balenaetcher'
@@ -428,6 +514,7 @@ cask 'bartender'
 cask 'cakebrew'
 cask 'cheatsheet'
 cask 'dash'
+cask 'dashlane'
 cask 'datagrip'
 cask 'dropbox'
 cask 'electron-fiddle'
@@ -444,6 +531,7 @@ cask 'goland'
 cask 'google-chrome'
 cask 'google-cloud-sdk'
 cask 'google-drive'
+cask 'google-drive-file-stream'
 cask 'gpg-suite'
 cask 'haptickey'
 cask 'insomnia'
@@ -487,90 +575,14 @@ cask 'workspaces'
 cask 'xquartz'
 cask 'zeplin'
 
-tap 'benbjohnson/litestream'
-brew 'litestream'
-
-tap 'boz/repo'
-
-tap 'buildpacks/tap'
-brew 'pack'
-
-tap 'buo/cask-upgrade'
-
-tap 'datadog/tap'
-brew 'devkube'
-brew 'docker-local-dev'
-brew 'kubectl-analyse'
-brew 'kubectl-iscale'
-brew 'kubectl-multiexec'
-brew 'kubectl-template'
-brew 'latest-artifact'
-brew 'latest-chart'
-brew 'latest-datacenter-config'
-brew 'latest-image'
-brew 's22-checker'
-brew 'sce'
-brew 'to-prod'
-brew 'to-staging'
-brew 'trigger-ci'
-cask 'atlas'
-cask 'datadog-workspaces'
-cask 'ddev'
-cask 'ddtool'
-cask 'tctl-data-converter'
-cask 'tctl-local-auth'
-cask 'tctx'
-
-tap 'derailed/k9s'
-
-tap 'github/gh'
-
-tap 'goreleaser/tap'
-
-tap 'gromgit/fuse'
-brew 'sshfs-mac'
-
-tap 'hashicorp/tap'
-
-tap 'helm/tap'
-brew 'chart-releaser'
-
-tap 'heroku/brew'
-brew 'heroku'
-brew 'heroku-node'
-
-tap 'maxandersen/tap'
-
-tap 'muesli/tap'
-
-tap 'norwoodj/tap'
-brew 'helm-docs'
-
-tap 'rcmdnk/file'
-brew 'brew-file'
-
-tap 'tektoncd/tools'
-
-tap 'thethingsnetwork/lorawan-stack'
-brew 'ttn-lw-cli'
-
-tap 'ubuntu/microk8s'
-brew 'microk8s'
-
-tap 'wata727/tflint'
-
-tap 'weaveworks/tap'
-
-# Other Cask applications
-cask 'dashlane'
-cask 'google-drive-file-stream'
-
 # App Store applications
+mas 'Dashlane (6.2334.0)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
 mas 'GarageBand (10.4.8)', id: 682658836
-mas 'iMovie (10.3.6)', id: 408981434
+mas 'iMovie (10.3.8)', id: 408981434
 mas 'Keynote (13.1)', id: 409183694
 mas 'Kindle (1.40.1)', id: 405399194
 mas 'Magnet (2.11.0)', id: 441258766
 mas 'Numbers (13.1)', id: 409203825
 mas 'Pages (13.1)', id: 409201541
+mas 'Xcode (14.3.1)', id: 497799835
