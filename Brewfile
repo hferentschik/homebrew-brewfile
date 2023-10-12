@@ -179,6 +179,7 @@ brew 'docker-completion'
 brew 'docker-credential-helper-ecr'
 brew 'docutils'
 brew 'double-conversion'
+brew 'duktape'
 brew 'entr'
 brew 'etcd'
 brew 'exa'
@@ -196,8 +197,8 @@ brew 'freetype'
 brew 'frei0r'
 brew 'fribidi'
 brew 'fswatch'
-brew 'fzf'
 brew 'fx'
+brew 'fzf'
 brew 'gawk'
 brew 'gcc'
 brew 'gd'
@@ -423,6 +424,10 @@ brew 'pygments'
 brew 'pygobject3'
 brew 'python-certifi'
 brew 'python-cryptography'
+brew 'python-lxml'
+brew 'python-markupsafe'
+brew 'python-packaging'
+brew 'python-pytz'
 brew 'python-tabulate'
 brew 'python-typing-extensions'
 brew 'python@3.10'
@@ -437,6 +442,7 @@ brew 'rav1e'
 brew 'rbenv'
 brew 'rbspy'
 brew 'rclone'
+brew 're2'
 brew 'readline'
 brew 'reattach-to-user-namespace'
 brew 'ripgrep'
@@ -579,13 +585,13 @@ cask 'xquartz'
 cask 'zeplin'
 
 # App Store applications
-mas 'Dashlane (6.2334.0)', id: 517914548
+mas 'Dashlane (6.2340.0)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
 mas 'GarageBand (10.4.8)', id: 682658836
-mas 'iMovie (10.3.8)', id: 408981434
-mas 'Keynote (13.1)', id: 409183694
-mas 'Kindle (1.40.1)', id: 405399194
-mas 'Magnet (2.11.0)', id: 441258766
-mas 'Numbers (13.1)', id: 409203825
-mas 'Pages (13.1)', id: 409201541
-mas 'Xcode (14.3.1)', id: 497799835
+mas 'iMovie (10.3.10)', id: 408981434
+mas 'Keynote (13.2)', id: 409183694
+mas 'Kindle Classic (1.40.2)', id: 405399194
+mas 'Magnet (2.12.0)', id: 441258766
+mas 'Numbers (13.2)', id: 409203825
+mas 'Pages (13.2)', id: 409201541
+mas 'Xcode (15.0)', id: 497799835
