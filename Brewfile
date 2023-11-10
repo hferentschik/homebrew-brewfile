@@ -86,6 +86,10 @@ brew 'waypoint'
 tap 'helm/tap'
 brew 'chart-releaser'
 
+tap 'heroku/brew'
+brew 'heroku'
+brew 'heroku-node'
+
 tap 'maxandersen/tap'
 
 tap 'muesli/tap'
@@ -424,10 +428,12 @@ brew 'python-lxml'
 brew 'python-markupsafe'
 brew 'python-packaging'
 brew 'python-pytz'
+brew 'python-setuptools'
 brew 'python-tabulate'
 brew 'python-typing-extensions'
 brew 'python@3.10'
 brew 'python@3.11'
+brew 'python@3.12'
 brew 'python@3.8'
 brew 'python@3.9'
 brew 'pyyaml'
@@ -485,6 +491,7 @@ brew 'unibilium'
 brew 'utf8proc'
 brew 'velero'
 brew 'vim'
+brew 'virtualenv'
 brew 'vnstat'
 brew 'w3m'
 brew 'watch'
@@ -581,13 +588,13 @@ cask 'xquartz'
 cask 'zeplin'
 
 # App Store applications
-mas 'Dashlane (6.2340.0)', id: 517914548
+mas 'Dashlane (6.2344.1)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
-mas 'GarageBand (10.4.8)', id: 682658836
+mas 'GarageBand (10.4.9)', id: 682658836
 mas 'iMovie (10.3.10)', id: 408981434
 mas 'Keynote (13.2)', id: 409183694
-mas 'Kindle Classic (1.40.2)', id: 405399194
-mas 'Magnet (2.12.0)', id: 441258766
+mas 'Kindle Classic (1.40.3)', id: 405399194
+mas 'Magnet (2.13.0)', id: 441258766
 mas 'Numbers (13.2)', id: 409203825
 mas 'Pages (13.2)', id: 409201541
-mas 'Xcode (15.0)', id: 497799835
+mas 'Xcode (15.0.1)', id: 497799835
