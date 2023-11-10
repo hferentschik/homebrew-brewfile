@@ -86,10 +86,6 @@ brew 'waypoint'
 tap 'helm/tap'
 brew 'chart-releaser'
 
-tap 'heroku/brew'
-brew 'heroku'
-brew 'heroku-node'
-
 tap 'maxandersen/tap'
 
 tap 'muesli/tap'
