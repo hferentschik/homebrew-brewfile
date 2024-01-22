@@ -149,6 +149,7 @@ brew 'bat'
 brew 'bazelisk'
 brew 'bdw-gc'
 brew 'berkeley-db'
+brew 'berkeley-db@5'
 brew 'bfg'
 brew 'blueutil'
 brew 'boost'
@@ -251,6 +252,7 @@ brew 'httrack'
 brew 'hub'
 brew 'hugo'
 brew 'hunspell'
+brew 'hwloc'
 brew 'hyperfine'
 brew 'icu4c'
 brew 'iftop'
@@ -294,6 +296,7 @@ brew 'libfido2'
 brew 'libgcrypt'
 brew 'libgit2'
 brew 'libgpg-error'
+brew 'libiconv'
 brew 'libidn'
 brew 'libidn2'
 brew 'libksba'
@@ -314,6 +317,7 @@ brew 'libsamplerate'
 brew 'libsndfile'
 brew 'libsodium'
 brew 'libsoxr'
+brew 'libssh'
 brew 'libssh2'
 brew 'libtasn1'
 brew 'libtermkey'
@@ -401,6 +405,7 @@ brew 'openjpeg'
 brew 'openldap'
 brew 'openssl@1.1'
 brew 'openssl@3'
+brew 'openvino'
 brew 'opus'
 brew 'p11-kit'
 brew 'p7zip'
@@ -419,6 +424,7 @@ brew 'procs'
 brew 'protobuf'
 brew 'protobuf@21'
 brew 'pstree'
+brew 'pugixml'
 brew 'py3cairo'
 brew 'pycparser'
 brew 'pyenv'
@@ -487,6 +493,7 @@ brew 'srt'
 brew 'subversion'
 brew 'svt-av1'
 brew 'talloc'
+brew 'tbb'
 brew 'tcl-tk'
 brew 'tctl'
 brew 'temporal'
@@ -605,13 +612,13 @@ cask 'xquartz'
 cask 'zeplin'
 
 # App Store applications
-mas 'Dashlane (6.2348.1)', id: 517914548
+mas 'Dashlane (6.2401.1)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
-mas 'GarageBand (10.4.9)', id: 682658836
+mas 'GarageBand (10.4.10)', id: 682658836
 mas 'iMovie (10.4)', id: 408981434
 mas 'Keynote (13.2)', id: 409183694
 mas 'Kindle Classic (1.40.3)', id: 405399194
-mas 'Magnet (2.13.0)', id: 441258766
+mas 'Magnet (2.14.0)', id: 441258766
 mas 'Numbers (13.2)', id: 409203825
 mas 'Pages (13.2)', id: 409201541
-mas 'Xcode (15.0.1)', id: 497799835
+mas 'Xcode (15.2)', id: 497799835
