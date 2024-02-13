@@ -614,7 +614,7 @@ cask 'xquartz'
 cask 'zeplin'
 
 # App Store applications
-mas 'Dashlane (6.2403.1)', id: 517914548
+mas 'Dashlane (6.2405.0)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
 mas 'GarageBand (10.4.10)', id: 682658836
 mas 'iMovie (10.4)', id: 408981434
