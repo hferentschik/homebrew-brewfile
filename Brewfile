@@ -92,6 +92,9 @@ brew 'heroku-node'
 
 tap 'maxandersen/tap'
 
+tap 'mike-engel/jwt-cli'
+brew 'jwt-cli'
+
 tap 'muesli/tap'
 brew 'duf'
 
@@ -117,9 +120,6 @@ tap 'wata727/tflint'
 
 tap 'weaveworks/tap'
 brew 'eksctl'
-
-tap 'mike-engel/jwt-cli'
-brew 'jwt-cli'
 
 # Other Homebrew packages
 brew 'abseil'
