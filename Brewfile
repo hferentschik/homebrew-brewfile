@@ -118,6 +118,9 @@ tap 'wata727/tflint'
 tap 'weaveworks/tap'
 brew 'eksctl'
 
+tap 'mike-engel/jwt-cli'
+brew 'jwt-cli'
+
 # Other Homebrew packages
 brew 'abseil'
 brew 'act'
