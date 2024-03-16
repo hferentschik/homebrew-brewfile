@@ -589,17 +589,12 @@ cask 'linkliar'
 cask 'macfuse'
 cask 'meetingbar'
 cask 'mqtt-explorer'
-cask 'multipass'
-cask 'murus'
 cask 'ngrok'
-cask 'paw'
-cask 'postman'
 cask 'pycharm'
 cask 'qlcolorcode'
 cask 'qlimagesize'
 cask 'qlstephen'
 cask 'quicklook-json'
-cask 'remember-the-milk'
 cask 'rubymine'
 cask 'sequel-pro'
 cask 'slack'
@@ -609,7 +604,6 @@ cask 'telegram'
 cask 'tunnelblick'
 cask 'tuple'
 cask 'vagrant'
-cask 'vagrant-manager'
 cask 'visual-studio-code'
 cask 'vlc'
 cask 'warp'
@@ -620,9 +614,7 @@ cask 'xquartz'
 cask 'zeplin'
 
 # App Store applications
-mas 'Dashlane (6.2407.0)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
-mas 'GarageBand (10.4.10)', id: 682658836
 mas 'iMovie (10.4)', id: 408981434
 mas 'Keynote (13.2)', id: 409183694
 mas 'Kindle Classic (1.40.3)', id: 405399194
