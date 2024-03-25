@@ -168,6 +168,7 @@ brew 'cjson'
 brew 'clusterctl'
 brew 'cmake'
 brew 'cmocka'
+brew 'corepack'
 brew 'coreutils'
 brew 'crane'
 brew 'cryptography'
@@ -639,7 +640,7 @@ cask 'xquartz'
 cask 'zeplin'
 
 # App Store applications
-mas 'Dashlane (6.2409.1)', id: 517914548
+mas 'Dashlane (6.2411.0)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
 mas 'GarageBand (10.4.11)', id: 682658836
 mas 'iMovie (10.4)', id: 408981434
