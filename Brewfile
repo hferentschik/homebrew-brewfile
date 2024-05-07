@@ -20,9 +20,6 @@ cask 'font-source-code-pro'
 cask 'font-ubuntu'
 
 tap 'homebrew/cask-versions'
-cask 'adoptopenjdk8'
-cask 'docker-edge'
-cask 'firefox-developer-edition'
 
 tap 'homebrew/services'
 
@@ -571,6 +568,7 @@ brew 'zsh-lovers'
 brew 'zstd'
 
 # Other Cask applications
+cask 'adoptopenjdk8'
 cask 'alfred'
 cask 'aws-vault'
 cask 'balenaetcher'
@@ -580,12 +578,15 @@ cask 'cheatsheet'
 cask 'dash'
 cask 'dashlane'
 cask 'datagrip'
+cask 'docker-edge'
 cask 'dropbox'
 cask 'electron-fiddle'
 cask 'evernote'
 cask 'fantastical'
 cask 'fing'
 cask 'finicky'
+cask 'firefox-developer-edition'
+cask 'firefox@developer-edition'
 cask 'franz'
 cask 'gimp'
 cask 'gitee'
@@ -640,13 +641,12 @@ cask 'xquartz'
 cask 'zeplin'
 
 # App Store applications
-mas 'Dashlane (6.2411.2)', id: 517914548
+mas 'Dashlane (6.2417.0)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
 mas 'GarageBand (10.4.11)', id: 682658836
-mas 'iMovie (10.4)', id: 408981434
-mas 'Keynote (13.2)', id: 409183694
+mas 'Keynote (14.0)', id: 409183694
 mas 'Kindle Classic (1.40.3)', id: 405399194
 mas 'Magnet (2.14.0)', id: 441258766
-mas 'Numbers (13.2)', id: 409203825
-mas 'Pages (13.2)', id: 409201541
+mas 'Numbers (14.0)', id: 409203825
+mas 'Pages (14.0)', id: 409201541
 mas 'Xcode (15.3)', id: 497799835
