@@ -6,18 +6,6 @@ tap 'homebrew/core'
 tap 'homebrew/bundle'
 
 tap 'homebrew/cask-fonts'
-cask 'font-consolas-for-powerline'
-cask 'font-d2coding'
-cask 'font-dashicons'
-cask 'font-devicons'
-cask 'font-fira-code'
-cask 'font-fira-mono'
-cask 'font-fontawesome'
-cask 'font-hack'
-cask 'font-inconsolata'
-cask 'font-simple-line-icons'
-cask 'font-source-code-pro'
-cask 'font-ubuntu'
 
 tap 'homebrew/cask-versions'
 
@@ -363,6 +351,7 @@ brew 'libyaml'
 brew 'libzip'
 brew 'little-cms2'
 brew 'lmdb'
+brew 'lpeg'
 brew 'lua'
 brew 'lua@5.3'
 brew 'luajit'
@@ -587,6 +576,18 @@ cask 'fing'
 cask 'finicky'
 cask 'firefox-developer-edition'
 cask 'firefox@developer-edition'
+cask 'font-consolas-for-powerline'
+cask 'font-d2coding'
+cask 'font-dashicons'
+cask 'font-devicons'
+cask 'font-fira-code'
+cask 'font-fira-mono'
+cask 'font-fontawesome'
+cask 'font-hack'
+cask 'font-inconsolata'
+cask 'font-simple-line-icons'
+cask 'font-source-code-pro'
+cask 'font-ubuntu'
 cask 'franz'
 cask 'gimp'
 cask 'gitee'
@@ -641,7 +642,7 @@ cask 'xquartz'
 cask 'zeplin'
 
 # App Store applications
-mas 'Dashlane (6.2417.0)', id: 517914548
+mas 'Dashlane (6.2419.0)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
 mas 'GarageBand (10.4.11)', id: 682658836
 mas 'Keynote (14.0)', id: 409183694
@@ -649,4 +650,4 @@ mas 'Kindle Classic (1.40.3)', id: 405399194
 mas 'Magnet (2.14.0)', id: 441258766
 mas 'Numbers (14.0)', id: 409203825
 mas 'Pages (14.0)', id: 409201541
-mas 'Xcode (15.3)', id: 497799835
+mas 'Xcode (15.4)', id: 497799835
