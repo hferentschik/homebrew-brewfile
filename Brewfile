@@ -106,6 +106,9 @@ tap 'wata727/tflint'
 tap 'weaveworks/tap'
 brew 'eksctl'
 
+tap 'withgraphite/tap'
+brew 'graphite'
+
 # Other Homebrew packages
 brew 'abseil'
 brew 'act'
@@ -223,6 +226,7 @@ brew 'go-jira'
 brew 'gobject-introspection'
 brew 'gotop'
 brew 'gpgme'
+brew 'graphite2'
 brew 'graphviz'
 brew 'grep'
 brew 'grpc'
@@ -343,6 +347,7 @@ brew 'libxkbcommon'
 brew 'libxkbfile'
 brew 'libxml2'
 brew 'libxmu'
+brew 'libxrandr'
 brew 'libxrender'
 brew 'libxt'
 brew 'libxtst'
@@ -526,7 +531,6 @@ brew 'w3m'
 brew 'watch'
 brew 'webp'
 brew 'wget'
-brew 'withgraphite/tap/graphite'
 brew 'x264'
 brew 'x265'
 brew 'xapian'
@@ -642,10 +646,11 @@ cask 'xquartz'
 cask 'zeplin'
 
 # App Store applications
-mas 'Dashlane (6.2424.3)', id: 517914548
+mas 'Dashlane (6.2425.2)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
 mas 'GarageBand (10.4.11)', id: 682658836
 mas 'Keynote (14.1)', id: 409183694
+mas 'Kindle (7.14)', id: 302584613
 mas 'Kindle Classic (1.40.3)', id: 405399194
 mas 'Magnet (2.14.0)', id: 441258766
 mas 'Numbers (14.1)', id: 409203825
