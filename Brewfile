@@ -293,6 +293,7 @@ brew 'libfido2'
 brew 'libfontenc'
 brew 'libgcrypt'
 brew 'libgit2'
+brew 'libgit2@1.7'
 brew 'libgpg-error'
 brew 'libice'
 brew 'libiconv'
@@ -396,6 +397,7 @@ brew 'node'
 brew 'node@14'
 brew 'node@16'
 brew 'node@18'
+brew 'node@20'
 brew 'notmuch'
 brew 'npth'
 brew 'nspr'
@@ -646,7 +648,7 @@ cask 'xquartz'
 cask 'zeplin'
 
 # App Store applications
-mas 'Dashlane (6.2425.2)', id: 517914548
+mas 'Dashlane (6.2429.0)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
 mas 'GarageBand (10.4.11)', id: 682658836
 mas 'Keynote (14.1)', id: 409183694
