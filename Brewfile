@@ -650,11 +650,11 @@ cask 'xquartz'
 cask 'zeplin'
 
 # App Store applications
-mas 'Dashlane (6.2429.0)', id: 517914548
+mas 'Dashlane (6.2432.1)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
 mas 'GarageBand (10.4.11)', id: 682658836
 mas 'Keynote (14.1)', id: 409183694
-mas 'Kindle (7.15.1)', id: 302584613
+mas 'Kindle (7.17.1)', id: 302584613
 mas 'Kindle Classic (1.40.3)', id: 405399194
 mas 'Magnet (2.14.0)', id: 441258766
 mas 'Numbers (14.1)', id: 409203825
