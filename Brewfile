@@ -29,6 +29,7 @@ brew 'dashlane-cli'
 tap 'datadog/tap'
 brew 'devkube'
 brew 'docker-local-dev'
+brew 'fabric-cli'
 brew 'kubectl-analyse'
 brew 'kubectl-iscale'
 brew 'kubectl-multiexec'
@@ -42,6 +43,7 @@ brew 'sce'
 brew 'to-prod'
 brew 'to-staging'
 brew 'trigger-ci'
+brew 'vault'
 cask 'atlas'
 cask 'datadog-workspaces'
 cask 'ddev'
@@ -65,7 +67,6 @@ brew 'sshfs-mac'
 tap 'hashicorp/tap'
 brew 'packer'
 brew 'terraform'
-brew 'vault'
 brew 'waypoint'
 
 tap 'helm/tap'
@@ -182,7 +183,6 @@ brew 'exiftool'
 brew 'expat'
 brew 'expect'
 brew 'eza'
-brew 'fabric-cli'
 brew 'fdupes'
 brew 'ffmpeg'
 brew 'findutils'
@@ -448,6 +448,10 @@ brew 'pygments'
 brew 'pygobject3'
 brew 'python-argcomplete'
 brew 'python-charset-normalizer'
+brew 'python-idna'
+brew 'python-packaging'
+brew 'python-requests'
+brew 'python-setuptools'
 brew 'python-urllib3'
 brew 'python@3.10'
 brew 'python@3.11'
@@ -633,13 +637,13 @@ cask 'xquartz'
 cask 'zeplin'
 
 # App Store applications
-mas 'Dashlane (6.2433.0)', id: 517914548
+mas 'Dashlane (6.2437.2)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
 mas 'GarageBand (10.4.11)', id: 682658836
-mas 'Keynote (14.1)', id: 409183694
-mas 'Kindle (7.17.1)', id: 302584613
+mas 'Keynote (14.2)', id: 409183694
+mas 'Kindle (7.19)', id: 302584613
 mas 'Kindle Classic (1.40.3)', id: 405399194
 mas 'Magnet (2.14.0)', id: 441258766
-mas 'Numbers (14.1)', id: 409203825
-mas 'Pages (14.1)', id: 409201541
-mas 'Xcode (15.4)', id: 497799835
+mas 'Numbers (14.2)', id: 409203825
+mas 'Pages (14.2)', id: 409201541
+mas 'Xcode (16.0)', id: 497799835
