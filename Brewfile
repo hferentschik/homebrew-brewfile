@@ -300,6 +300,7 @@ brew 'libfontenc'
 brew 'libgcrypt'
 brew 'libgit2'
 brew 'libgit2@1.7'
+brew 'libgit2@1.8'
 brew 'libgpg-error'
 brew 'libice'
 brew 'libiconv'
@@ -642,7 +643,7 @@ cask 'xquartz'
 cask 'zeplin'
 
 # App Store applications
-mas 'Dashlane (6.2449.1)', id: 517914548
+mas 'Dashlane (6.2501.1)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
 mas 'GarageBand (10.4.11)', id: 682658836
 mas 'Keynote (14.3)', id: 409183694
