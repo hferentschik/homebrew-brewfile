@@ -364,6 +364,7 @@ brew 'libxtst'
 brew 'libyaml'
 brew 'libzip'
 brew 'little-cms2'
+brew 'llvm'
 brew 'lmdb'
 brew 'lpeg'
 brew 'lsusb'
@@ -482,6 +483,7 @@ brew 'rtmpdump'
 brew 'rubberband'
 brew 'ruby'
 brew 'ruby-build'
+brew 'rust'
 brew 'screen'
 brew 'sdl2'
 brew 'sfsexp'
@@ -551,6 +553,7 @@ brew 'xz'
 brew 'yarn'
 brew 'yq'
 brew 'z'
+brew 'z3'
 brew 'zeromq'
 brew 'zimg'
 brew 'zlib'
@@ -655,4 +658,4 @@ mas 'Magnet (3.0.6)', id: 441258766
 mas 'Numbers (14.3)', id: 409203825
 mas 'Pages (14.3)', id: 409201541
 mas 'Xcode (16.2)', id: 497799835
-mas '‎WhatsApp (24.25.79)', id: 310633997
+mas '‎WhatsApp (25.1.10)', id: 310633997
