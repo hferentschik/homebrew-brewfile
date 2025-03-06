@@ -285,7 +285,6 @@ brew 'libapplewm'
 brew 'libarchive'
 brew 'libass'
 brew 'libassuan'
-brew 'libassuan@2'
 brew 'libavif'
 brew 'libb2'
 brew 'libbluray'
@@ -300,8 +299,6 @@ brew 'libfido2'
 brew 'libfontenc'
 brew 'libgcrypt'
 brew 'libgit2'
-brew 'libgit2@1.7'
-brew 'libgit2@1.8'
 brew 'libgpg-error'
 brew 'libice'
 brew 'libiconv'
@@ -346,7 +343,6 @@ brew 'libvterm'
 brew 'libx11'
 brew 'libxau'
 brew 'libxcb'
-brew 'libxdamage'
 brew 'libxdmcp'
 brew 'libxext'
 brew 'libxfixes'
@@ -364,7 +360,6 @@ brew 'libxtst'
 brew 'libyaml'
 brew 'libzip'
 brew 'little-cms2'
-brew 'llvm'
 brew 'lmdb'
 brew 'lpeg'
 brew 'lsusb'
@@ -483,7 +478,6 @@ brew 'rtmpdump'
 brew 'rubberband'
 brew 'ruby'
 brew 'ruby-build'
-brew 'rust'
 brew 'screen'
 brew 'sdl2'
 brew 'sfsexp'
@@ -553,7 +547,6 @@ brew 'xz'
 brew 'yarn'
 brew 'yq'
 brew 'z'
-brew 'z3'
 brew 'zeromq'
 brew 'zimg'
 brew 'zlib'
@@ -616,7 +609,6 @@ cask 'linkliar'
 cask 'macfuse'
 cask 'meetingbar'
 cask 'mqtt-explorer'
-cask 'multipass'
 cask 'murus'
 cask 'ngrok'
 cask 'paw'
@@ -648,14 +640,14 @@ cask 'xquartz'
 cask 'zeplin'
 
 # App Store applications
-mas 'Dashlane (6.2503.0)', id: 517914548
+mas 'Dashlane (6.2507.1)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
 mas 'GarageBand (10.4.12)', id: 682658836
 mas 'Keynote (14.3)', id: 409183694
-mas 'Kindle (7.24)', id: 302584613
+mas 'Kindle (7.25.1)', id: 302584613
 mas 'Kindle Classic (1.40.3)', id: 405399194
 mas 'Magnet (3.0.6)', id: 441258766
 mas 'Numbers (14.3)', id: 409203825
 mas 'Pages (14.3)', id: 409201541
 mas 'Xcode (16.2)', id: 497799835
-mas '‎WhatsApp (25.1.10)', id: 310633997
+mas '‎WhatsApp (25.4.75)', id: 310633997
