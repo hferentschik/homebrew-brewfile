@@ -53,7 +53,6 @@ cask 'ddtool'
 cask 'tctl-data-converter'
 cask 'tctl-local-auth'
 cask 'tctx'
-cask '1password-cli'
 
 tap 'derailed/k9s'
 brew 'k9s'
@@ -556,6 +555,7 @@ brew 'zsh-lovers'
 brew 'zstd'
 
 # Other Cask applications
+cask '1password-cli'
 cask 'adoptopenjdk8'
 cask 'alfred'
 cask 'aws-vault'
@@ -641,9 +641,8 @@ cask 'xquartz'
 cask 'zeplin'
 
 # App Store applications
-mas 'Dashlane (6.2507.1)', id: 517914548
+mas 'Dashlane (6.2509.0)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
-mas 'GarageBand (10.4.12)', id: 682658836
 mas 'Keynote (14.3)', id: 409183694
 mas 'Kindle (7.25.1)', id: 302584613
 mas 'Kindle Classic (1.40.3)', id: 405399194
