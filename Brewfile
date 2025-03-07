@@ -53,6 +53,7 @@ cask 'ddtool'
 cask 'tctl-data-converter'
 cask 'tctl-local-auth'
 cask 'tctx'
+cask '1password-cli'
 
 tap 'derailed/k9s'
 brew 'k9s'
