@@ -44,13 +44,13 @@ brew 'to-prod'
 brew 'to-staging'
 brew 'trigger-ci'
 brew 'vault'
-brew 'computectl'
-brew 'ddsign'
 cask 'atlas'
 cask 'bzl'
+cask 'computectl'
 cask 'datadog-workspaces'
 cask 'ddev'
 cask 'ddr'
+cask 'ddsign'
 cask 'ddtool'
 cask 'tctl-data-converter'
 cask 'tctl-local-auth'
@@ -256,6 +256,7 @@ brew 'hunspell'
 brew 'hwloc'
 brew 'hyperfine'
 brew 'icu4c@76'
+brew 'icu4c@77'
 brew 'iftop'
 brew 'imath'
 brew 'influxdb-cli'
@@ -643,10 +644,10 @@ cask 'xquartz'
 cask 'zeplin'
 
 # App Store applications
-mas 'Dashlane (6.2509.0)', id: 517914548
+mas 'Dashlane (6.2509.1)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
 mas 'Keynote (14.3)', id: 409183694
-mas 'Kindle (7.25.1)', id: 302584613
+mas 'Kindle (7.27.1)', id: 302584613
 mas 'Kindle Classic (1.40.3)', id: 405399194
 mas 'Magnet (3.0.6)', id: 441258766
 mas 'Numbers (14.3)', id: 409203825
