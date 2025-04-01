@@ -293,6 +293,7 @@ brew 'libb2'
 brew 'libbluray'
 brew 'libcbor'
 brew 'libcerf'
+brew 'libclc'
 brew 'libdeflate'
 brew 'libepoxy'
 brew 'libev'
@@ -363,6 +364,7 @@ brew 'libxtst'
 brew 'libyaml'
 brew 'libzip'
 brew 'little-cms2'
+brew 'llvm'
 brew 'lmdb'
 brew 'lpeg'
 brew 'lsusb'
@@ -443,6 +445,7 @@ brew 'pkgconf'
 brew 'procs'
 brew 'protobuf'
 brew 'protobuf@21'
+brew 'protobuf@29'
 brew 'pstree'
 brew 'pugixml'
 brew 'py3cairo'
@@ -491,6 +494,8 @@ brew 'snapcraft'
 brew 'snappy'
 brew 'sops'
 brew 'speex'
+brew 'spirv-llvm-translator'
+brew 'spirv-tools'
 brew 'sponge'
 brew 'sqlite'
 brew 'squashfs'
@@ -541,7 +546,7 @@ brew 'xdelta'
 brew 'xdot'
 brew 'xdotool'
 brew 'xkbcomp'
-brew 'xkeyboardconfig'
+brew 'xkeyboard-config'
 brew 'xmlstarlet'
 brew 'xorg-server'
 brew 'xorgproto'
@@ -550,6 +555,7 @@ brew 'xz'
 brew 'yarn'
 brew 'yq'
 brew 'z'
+brew 'z3'
 brew 'zeromq'
 brew 'zimg'
 brew 'zlib'
@@ -644,13 +650,13 @@ cask 'xquartz'
 cask 'zeplin'
 
 # App Store applications
-mas 'Dashlane (6.2509.1)', id: 517914548
+mas 'Dashlane (6.2513.1)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
 mas 'Keynote (14.3)', id: 409183694
-mas 'Kindle (7.27.1)', id: 302584613
+mas 'Kindle (7.29)', id: 302584613
 mas 'Kindle Classic (1.40.3)', id: 405399194
 mas 'Magnet (3.0.6)', id: 441258766
 mas 'Numbers (14.3)', id: 409203825
 mas 'Pages (14.3)', id: 409201541
-mas 'Xcode (16.2)', id: 497799835
-mas '‎WhatsApp (25.4.75)', id: 310633997
+mas 'Xcode (16.3)', id: 497799835
+mas '‎WhatsApp (25.8.76)', id: 310633997
