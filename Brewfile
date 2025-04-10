@@ -652,11 +652,11 @@ cask 'zeplin'
 # App Store applications
 mas 'Dashlane (6.2513.1)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
-mas 'Keynote (14.3)', id: 409183694
+mas 'Keynote (14.4)', id: 409183694
 mas 'Kindle (7.29)', id: 302584613
 mas 'Kindle Classic (1.40.3)', id: 405399194
 mas 'Magnet (3.0.6)', id: 441258766
-mas 'Numbers (14.3)', id: 409203825
-mas 'Pages (14.3)', id: 409201541
+mas 'Numbers (14.4)', id: 409203825
+mas 'Pages (14.4)', id: 409201541
 mas 'Xcode (16.3)', id: 497799835
-mas '‎WhatsApp (25.8.76)', id: 310633997
+mas '‎WhatsApp (25.9.72)', id: 310633997
