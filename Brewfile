@@ -13,6 +13,8 @@ tap 'homebrew/services'
 
 tap 'homebrew/cask'
 
+tap 'pantsbuild/tap'
+
 tap 'benbjohnson/litestream'
 brew 'litestream'
 
@@ -90,8 +92,8 @@ brew 'duf'
 tap 'norwoodj/tap'
 brew 'helm-docs'
 
-tap 'rcmdnk/file'
-brew 'brew-file'
+#tap 'rcmdnk/file'
+#brew 'brew-file'
 
 tap 'stefanprodan/tap'
 brew 'timoni'
