@@ -2,109 +2,6 @@
 # tap repositories and their packages
 
 tap 'homebrew/core'
-
-tap 'homebrew/cask'
-
-tap 'pantsbuild/tap'
-
-tap 'benbjohnson/litestream'
-brew 'litestream'
-
-tap 'boz/repo'
-
-tap 'buildpacks/tap'
-brew 'pack'
-
-tap 'buo/cask-upgrade'
-
-tap 'dashlane/tap'
-brew 'dashlane-cli'
-
-tap 'datadog/tap'
-brew 'devkube'
-brew 'docker-local-dev'
-brew 'fabric-cli'
-brew 'kubectl-analyse'
-brew 'kubectl-iscale'
-brew 'kubectl-multiexec'
-brew 'kubectl-template'
-brew 'latest-chart'
-brew 'latest-datacenter-config'
-brew 'latest-image'
-brew 's22-checker'
-brew 'sce'
-brew 'to-prod'
-brew 'to-staging'
-brew 'trigger-ci'
-brew 'vault'
-cask 'atlas'
-cask 'bzl'
-cask 'computectl'
-cask 'datadog-workspaces'
-cask 'ddev'
-cask 'ddr'
-cask 'ddsign'
-cask 'ddtool'
-cask 'tctl-data-converter'
-cask 'tctl-local-auth'
-cask 'tctx'
-
-tap 'derailed/k9s'
-brew 'k9s'
-
-tap 'github/gh'
-
-tap 'goreleaser/tap'
-brew 'goreleaser'
-
-tap 'gromgit/fuse'
-brew 'sshfs-mac'
-
-tap 'hashicorp/tap'
-brew 'terraform'
-
-tap 'helm/tap'
-brew 'chart-releaser'
-
-tap 'heroku/brew'
-brew 'heroku'
-brew 'heroku-node'
-
-tap 'maxandersen/tap'
-
-tap 'mike-engel/jwt-cli'
-brew 'jwt-cli'
-
-tap 'muesli/tap'
-brew 'duf'
-
-tap 'norwoodj/tap'
-brew 'helm-docs'
-
-#tap 'rcmdnk/file'
-#brew 'brew-file'
-
-tap 'stefanprodan/tap'
-brew 'timoni'
-
-tap 'tektoncd/tools'
-brew 'tektoncd-cli'
-
-tap 'thethingsnetwork/lorawan-stack'
-brew 'ttn-lw-cli'
-
-tap 'ubuntu/microk8s'
-brew 'microk8s'
-
-tap 'wata727/tflint'
-
-tap 'weaveworks/tap'
-brew 'eksctl'
-
-tap 'withgraphite/tap'
-brew 'graphite'
-
-# Other Homebrew packages
 brew 'abseil'
 brew 'act'
 brew 'adns'
@@ -139,7 +36,6 @@ brew 'berkeley-db@5'
 brew 'bfg'
 brew 'blueutil'
 brew 'boost'
-brew 'rcmdnk/file/brew-file'
 brew 'brotli'
 brew 'c-ares'
 brew 'ca-certificates'
@@ -168,7 +64,9 @@ brew 'docker-completion'
 brew 'docker-credential-helper-ecr'
 brew 'docutils'
 brew 'double-conversion'
+brew 'duf'
 brew 'duktape'
+brew 'eksctl'
 brew 'entr'
 brew 'etcd'
 brew 'exiftool'
@@ -217,6 +115,7 @@ brew 'gnutls'
 brew 'go'
 brew 'go-jira'
 brew 'gobject-introspection'
+brew 'goreleaser'
 brew 'gotop'
 brew 'gpgme'
 brew 'graphite2'
@@ -231,7 +130,9 @@ brew 'guile'
 brew 'gum'
 brew 'harfbuzz'
 brew 'helm'
+brew 'helm-docs'
 brew 'helmfile'
+brew 'heroku'
 brew 'hicolor-icon-theme'
 brew 'highlight'
 brew 'highway'
@@ -257,6 +158,8 @@ brew 'jpeg-turbo'
 brew 'jpeg-xl'
 brew 'jq'
 brew 'jsoncpp'
+brew 'jwt-cli'
+brew 'k9s'
 brew 'kind'
 brew 'kops'
 brew 'krb5'
@@ -375,7 +278,6 @@ brew 'mbedtls'
 brew 'md4c'
 brew 'mercurial'
 brew 'mesa'
-brew 'mitmproxy'
 brew 'mkcert'
 brew 'mockery'
 brew 'mpdecimal'
@@ -392,6 +294,7 @@ brew 'nettle'
 brew 'nghttp2'
 brew 'nmap'
 brew 'node'
+brew 'node@20'
 brew 'notmuch'
 brew 'npth'
 brew 'nspr'
@@ -436,6 +339,7 @@ brew 'pyenv'
 brew 'pygit2'
 brew 'pygments'
 brew 'pygobject3'
+brew 'python@3.12'
 brew 'python@3.13'
 brew 'qpdf'
 brew 'qt'
@@ -457,6 +361,7 @@ brew 'screen'
 brew 'sdl2'
 brew 'sfsexp'
 brew 'shellcheck'
+brew 'six'
 brew 'skaffold'
 brew 'snap'
 brew 'snapcraft'
@@ -477,7 +382,10 @@ brew 'tbb'
 brew 'tcl-tk'
 brew 'tcl-tk@8'
 brew 'tctl'
+brew 'tektoncd-cli'
 brew 'temporal'
+brew 'terminal-notifier'
+brew 'terraform'
 brew 'terraform-docs'
 brew 'terragrunt'
 brew 'tesseract'
@@ -494,6 +402,7 @@ brew 'unbound'
 brew 'unibilium'
 brew 'unixodbc'
 brew 'utf8proc'
+brew 'vault'
 brew 'velero'
 brew 'vim'
 brew 'virtualenv'
@@ -532,13 +441,14 @@ brew 'zsh'
 brew 'zsh-lovers'
 brew 'zstd'
 
-# Other Cask applications
+tap 'homebrew/cask'
 cask '1password-cli'
 cask 'alfred'
 cask 'arc'
 cask 'aws-vault'
 cask 'balenaetcher'
 cask 'bartender'
+cask 'creality-print'
 cask 'dash'
 cask 'datagrip'
 cask 'dropbox'
@@ -579,9 +489,11 @@ cask 'lens'
 cask 'linkliar'
 cask 'macfuse'
 cask 'meetingbar'
+cask 'mitmproxy'
 cask 'mqtt-explorer'
 cask 'murus'
 cask 'ngrok'
+cask 'openscad'
 cask 'postman'
 cask 'pycharm'
 cask 'qlcolorcode'
@@ -607,12 +519,100 @@ cask 'workspaces'
 cask 'xquartz'
 cask 'zeplin'
 
+tap 'benbjohnson/litestream'
+brew 'litestream'
+
+tap 'boz/repo'
+
+tap 'buildpacks/tap'
+brew 'pack'
+
+tap 'buo/cask-upgrade'
+
+tap 'dashlane/tap'
+brew 'dashlane-cli'
+
+tap 'datadog/tap'
+brew 'devkube'
+brew 'docker-local-dev'
+brew 'kubectl-analyse'
+brew 'kubectl-iscale'
+brew 'kubectl-multiexec'
+brew 'kubectl-template'
+brew 'latest-chart'
+brew 'latest-datacenter-config'
+brew 'latest-image'
+brew 's22-checker'
+brew 'sce'
+brew 'to-prod'
+brew 'to-staging'
+brew 'trigger-ci'
+cask 'atlas'
+cask 'bzl'
+cask 'computectl'
+cask 'datadog-workspaces'
+cask 'ddev'
+cask 'ddr'
+cask 'ddsign'
+cask 'ddtool'
+cask 'tctl-data-converter'
+cask 'tctl-local-auth'
+cask 'tctx'
+
+tap 'derailed/k9s'
+
+tap 'github/gh'
+
+tap 'goreleaser/tap'
+
+tap 'gromgit/fuse'
+brew 'sshfs-mac'
+
+tap 'hashicorp/tap'
+
+tap 'helm/tap'
+brew 'chart-releaser'
+
+tap 'heroku/brew'
+brew 'heroku-node'
+
+tap 'maxandersen/tap'
+
+tap 'mike-engel/jwt-cli'
+
+tap 'muesli/tap'
+
+tap 'norwoodj/tap'
+
+tap 'pantsbuild/tap'
+
+tap 'rcmdnk/file'
+brew 'brew-file'
+
+tap 'stefanprodan/tap'
+brew 'timoni'
+
+tap 'tektoncd/tools'
+
+tap 'thethingsnetwork/lorawan-stack'
+brew 'ttn-lw-cli'
+
+tap 'ubuntu/microk8s'
+brew 'microk8s'
+
+tap 'wata727/tflint'
+
+tap 'weaveworks/tap'
+
+tap 'withgraphite/tap'
+brew 'graphite'
+
 # App Store applications
-mas 'Dashlane (6.2513.1)', id: 517914548
+mas 'Amazon Kindle (7.30)', id: 302584613
+mas 'Dashlane (6.2515.0)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
-mas 'Keynote (14.4)', id: 409183694
-mas 'Kindle (7.29)', id: 302584613
-mas 'Magnet (3.0.6)', id: 441258766
-mas 'Numbers (14.4)', id: 409203825
-mas 'Pages (14.4)', id: 409201541
-mas '‎WhatsApp (25.9.72)', id: 310633997
+mas 'Keynote (14.1)', id: 409183694
+mas 'Magnet (3.0.7)', id: 441258766
+mas 'Numbers (14.1)', id: 409203825
+mas 'Pages (14.1)', id: 409201541
+mas 'WhatsApp (25.12.73)', id: 310633997
