@@ -504,8 +504,8 @@ cask 'remember-the-milk'
 cask 'rubymine'
 cask 'slack'
 cask 'spotify'
-cask 'sublime-text'
 cask 'steam'
+cask 'sublime-text'
 cask 'telegram'
 cask 'tunnelblick'
 cask 'tuple'
@@ -617,4 +617,4 @@ mas 'Keynote (14.1)', id: 409183694
 mas 'Magnet (3.0.7)', id: 441258766
 mas 'Numbers (14.1)', id: 409203825
 mas 'Pages (14.1)', id: 409201541
-mas 'WhatsApp (25.12.73)', id: 310633997
+mas 'WhatsApp (25.13.74)', id: 310633997
