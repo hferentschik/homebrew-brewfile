@@ -505,6 +505,7 @@ cask 'rubymine'
 cask 'slack'
 cask 'spotify'
 cask 'sublime-text'
+cask 'steam'
 cask 'telegram'
 cask 'tunnelblick'
 cask 'tuple'
@@ -535,6 +536,7 @@ brew 'dashlane-cli'
 tap 'datadog/tap'
 brew 'devkube'
 brew 'docker-local-dev'
+brew 'fabric-cli'
 brew 'kubectl-analyse'
 brew 'kubectl-iscale'
 brew 'kubectl-multiexec'
@@ -608,7 +610,7 @@ tap 'withgraphite/tap'
 brew 'graphite'
 
 # App Store applications
-mas 'Amazon Kindle (7.30)', id: 302584613
+mas 'Amazon Kindle (7.31)', id: 302584613
 mas 'Dashlane (6.2515.0)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
 mas 'Keynote (14.1)', id: 409183694
