@@ -61,6 +61,7 @@ brew 'direnv'
 brew 'dive'
 brew 'docker'
 brew 'docker-completion'
+brew 'docker-credential-helper'
 brew 'docker-credential-helper-ecr'
 brew 'docutils'
 brew 'double-conversion'
@@ -485,6 +486,7 @@ cask 'istat-menus'
 cask 'iterm2'
 cask 'kap'
 cask 'keycastr'
+cask 'ledger-live'
 cask 'lens'
 cask 'linkliar'
 cask 'macfuse'
@@ -611,7 +613,7 @@ brew 'graphite'
 
 # App Store applications
 mas 'Amazon Kindle (7.31)', id: 302584613
-mas 'Dashlane (6.2515.0)', id: 517914548
+mas 'Dashlane (6.2517.0)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
 mas 'Keynote (14.1)', id: 409183694
 mas 'Magnet (3.0.7)', id: 441258766
