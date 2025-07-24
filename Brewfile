@@ -223,6 +223,8 @@ brew 'libmicrohttpd'
 brew 'libmng'
 brew 'libmpc'
 brew 'libnghttp2'
+brew 'libnghttp3'
+brew 'libngtcp2'
 brew 'libogg'
 brew 'libpng'
 brew 'libpq'
@@ -381,6 +383,8 @@ brew 'screen'
 brew 'sdl2'
 brew 'sfsexp'
 brew 'shellcheck'
+brew 'simdjson'
+brew 'simdutf'
 brew 'six'
 brew 'skaffold'
 brew 'snap'
@@ -580,10 +584,10 @@ cask 'ddev'
 cask 'ddr'
 cask 'ddsign'
 cask 'ddtool'
+cask 'orcactl'
 cask 'tctl-data-converter'
 cask 'tctl-local-auth'
 cask 'tctx'
-cask 'orcactl'
 
 tap 'derailed/k9s'
 
@@ -632,7 +636,7 @@ tap 'withgraphite/tap'
 brew 'graphite'
 
 # App Store applications
-mas 'Amazon Kindle (7.36)', id: 302584613
+mas 'Amazon Kindle (7.37)', id: 302584613
 mas 'Dashlane (6.2527.1)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
 mas 'Keynote (14.1)', id: 409183694
