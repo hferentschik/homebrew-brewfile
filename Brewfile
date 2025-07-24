@@ -583,6 +583,7 @@ cask 'ddtool'
 cask 'tctl-data-converter'
 cask 'tctl-local-auth'
 cask 'tctx'
+cask 'orcactl'
 
 tap 'derailed/k9s'
 
