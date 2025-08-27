@@ -68,6 +68,7 @@ brew 'cryptography'
 brew 'ctop'
 brew 'curl'
 brew 'cyme'
+brew 'cyrus-sasl'
 brew 'dav1d'
 brew 'dbus'
 brew 'delve'
@@ -245,6 +246,7 @@ brew 'libtermkey'
 brew 'libtiff'
 brew 'libtommath'
 brew 'libtool'
+brew 'libudfread'
 brew 'libunibreak'
 brew 'libunistring'
 brew 'libusb'
@@ -275,6 +277,7 @@ brew 'libyaml'
 brew 'libzip'
 brew 'little-cms2'
 brew 'llvm'
+brew 'llvm@20'
 brew 'lmdb'
 brew 'lpeg'
 brew 'lsusb'
@@ -312,6 +315,7 @@ brew 'neovim'
 brew 'netpbm'
 brew 'nettle'
 brew 'nghttp2'
+brew 'nlohmann-json'
 brew 'nmap'
 brew 'node'
 brew 'node@20'
@@ -429,6 +433,7 @@ brew 'unbound'
 brew 'unibilium'
 brew 'unixodbc'
 brew 'utf8proc'
+brew 'uvwasi'
 brew 'vault'
 brew 'velero'
 brew 'vim'
@@ -637,11 +642,11 @@ tap 'withgraphite/tap'
 brew 'graphite'
 
 # App Store applications
-mas 'Amazon Kindle (7.38)', id: 302584613
-mas 'Dashlane (6.2531.2)', id: 517914548
+mas 'Amazon Kindle (7.38.1)', id: 302584613
+mas 'Dashlane (6.2533.0)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
 mas 'Keynote (14.1)', id: 409183694
 mas 'Magnet (3.0.7)', id: 441258766
 mas 'Numbers (14.1)', id: 409203825
 mas 'Pages (14.1)', id: 409201541
-mas 'WhatsApp (25.21.78)', id: 310633997
+mas 'WhatsApp (25.22.79)', id: 310633997
