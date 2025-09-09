@@ -59,6 +59,7 @@ brew 'certifi'
 brew 'cffi'
 brew 'chart-releaser'
 brew 'cjson'
+brew 'claude'
 brew 'clusterctl'
 brew 'cmake'
 brew 'cmocka'
@@ -586,6 +587,7 @@ cask 'atlas'
 cask 'bzl'
 cask 'computectl'
 cask 'datadog-workspaces'
+cask 'dd-auth'
 cask 'ddev'
 cask 'ddr'
 cask 'ddsign'
@@ -642,7 +644,7 @@ tap 'withgraphite/tap'
 brew 'graphite'
 
 # App Store applications
-mas 'Amazon Kindle (7.38.1)', id: 302584613
+mas 'Amazon Kindle (7.40.1)', id: 302584613
 mas 'Dashlane (6.2533.0)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
 mas 'Keynote (14.1)', id: 409183694
