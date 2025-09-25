@@ -277,7 +277,6 @@ brew 'libyaml'
 brew 'libzip'
 brew 'little-cms2'
 brew 'llvm'
-brew 'llvm@20'
 brew 'lmdb'
 brew 'lpeg'
 brew 'lsusb'
@@ -481,7 +480,6 @@ cask 'arc'
 cask 'aws-vault'
 cask 'balenaetcher'
 cask 'bartender'
-cask 'claude'
 cask 'creality-print'
 cask 'dash'
 cask 'datagrip'
@@ -647,10 +645,10 @@ brew 'graphite'
 
 # App Store applications
 mas 'Amazon Kindle (7.41)', id: 302584613
-mas 'Dashlane (6.2536.0)', id: 517914548
+mas 'Dashlane (6.2537.0)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
 mas 'Keynote (14.1)', id: 409183694
 mas 'Magnet (3.0.7)', id: 441258766
 mas 'Numbers (14.1)', id: 409203825
 mas 'Pages (14.1)', id: 409201541
-mas 'WhatsApp (25.24.76)', id: 310633997
+mas 'WhatsApp (25.25.74)', id: 310633997
