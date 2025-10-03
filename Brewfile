@@ -277,6 +277,7 @@ brew 'libyaml'
 brew 'libzip'
 brew 'little-cms2'
 brew 'llvm'
+brew 'llvm@20'
 brew 'lmdb'
 brew 'lpeg'
 brew 'lsusb'
@@ -479,6 +480,7 @@ cask 'arc'
 cask 'aws-vault'
 cask 'balenaetcher'
 cask 'bartender'
+cask 'claude'
 cask 'creality-print'
 cask 'dash'
 cask 'datagrip'
@@ -651,4 +653,4 @@ mas 'Keynote (14.1)', id: 409183694
 mas 'Magnet (3.0.7)', id: 441258766
 mas 'Numbers (14.1)', id: 409203825
 mas 'Pages (14.1)', id: 409201541
-mas 'WhatsApp (25.26.72)', id: 310633997
+mas 'WhatsApp (25.27.73)', id: 310633997
