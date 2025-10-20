@@ -232,6 +232,7 @@ brew 'libpng'
 brew 'libpq'
 brew 'libproxy'
 brew 'libpthread-stubs'
+brew 'libptytty'
 brew 'librdkafka'
 brew 'librist'
 brew 'librsvg'
@@ -686,10 +687,10 @@ brew 'graphite'
 
 # App Store applications
 mas 'Amazon Kindle (7.43)', id: 302584613
-mas 'Dashlane (6.2539.0)', id: 517914548
+mas 'Dashlane (6.2541.0)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
 mas 'Keynote (14.1)', id: 409183694
 mas 'Magnet (3.0.7)', id: 441258766
 mas 'Numbers (14.1)', id: 409203825
 mas 'Pages (14.1)', id: 409201541
-mas 'WhatsApp (25.28.75)', id: 310633997
+mas 'WhatsApp (25.29.73)', id: 310633997
