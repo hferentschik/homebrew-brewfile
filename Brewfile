@@ -519,6 +519,7 @@ cask 'arc'
 cask 'aws-vault'
 cask 'balenaetcher'
 cask 'bartender'
+cask 'cameracontroller'
 cask 'claude'
 cask 'creality-print'
 cask 'dash'
@@ -687,7 +688,7 @@ brew 'graphite'
 
 # App Store applications
 mas 'Amazon Kindle (7.43)', id: 302584613
-mas 'Dashlane (6.2541.0)', id: 517914548
+mas 'Dashlane (6.2541.2)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
 mas 'Keynote (14.1)', id: 409183694
 mas 'Magnet (3.0.7)', id: 441258766
