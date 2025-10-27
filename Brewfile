@@ -631,9 +631,9 @@ cask 'computectl'
 cask 'datadog-workspaces'
 cask 'dd-auth'
 cask 'ddcall'
+cask 'ddd'
 cask 'ddev'
 cask 'ddr'
-cask 'ddd'
 cask 'ddsign'
 cask 'ddtool'
 cask 'orcactl'
@@ -695,4 +695,4 @@ mas 'Keynote (14.1)', id: 409183694
 mas 'Magnet (3.0.7)', id: 441258766
 mas 'Numbers (14.1)', id: 409203825
 mas 'Pages (14.1)', id: 409201541
-mas 'WhatsApp (25.29.73)', id: 310633997
+mas 'WhatsApp (25.30.72)', id: 310633997
