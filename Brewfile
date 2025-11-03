@@ -364,6 +364,7 @@ brew 'pstree'
 brew 'pugixml'
 brew 'py3cairo'
 brew 'pycparser'
+brew 'pydantic-core'
 brew 'pyenv'
 brew 'pygit2'
 brew 'pygments'
@@ -695,4 +696,4 @@ mas 'Keynote (14.1)', id: 409183694
 mas 'Magnet (3.0.7)', id: 441258766
 mas 'Numbers (14.1)', id: 409203825
 mas 'Pages (14.1)', id: 409201541
-mas 'WhatsApp (25.30.72)', id: 310633997
+mas 'WhatsApp (25.31.75)', id: 310633997
