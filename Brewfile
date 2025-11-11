@@ -370,7 +370,6 @@ brew 'pygit2'
 brew 'pygments'
 brew 'pygobject3'
 brew 'python-setuptools'
-brew 'python@3.12'
 brew 'python@3.13'
 brew 'python@3.14'
 brew 'qpdf'
@@ -689,7 +688,7 @@ tap 'withgraphite/tap'
 brew 'graphite'
 
 # App Store applications
-mas 'Amazon Kindle (7.43)', id: 302584613
+mas 'Amazon Kindle (7.44.1)', id: 302584613
 mas 'Dashlane (6.2541.2)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
 mas 'Keynote (14.1)', id: 409183694
