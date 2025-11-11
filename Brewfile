@@ -688,11 +688,11 @@ tap 'withgraphite/tap'
 brew 'graphite'
 
 # App Store applications
-mas 'Amazon Kindle (7.44.1)', id: 302584613
-mas 'Dashlane (6.2541.2)', id: 517914548
+mas 'Amazon Kindle (7.45.1)', id: 302584613
+mas 'Dashlane (6.2544.0)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
 mas 'Keynote (14.1)', id: 409183694
 mas 'Magnet (3.0.7)', id: 441258766
 mas 'Numbers (14.1)', id: 409203825
 mas 'Pages (14.1)', id: 409201541
-mas 'WhatsApp (25.31.75)', id: 310633997
+mas 'WhatsApp (25.32.75)', id: 310633997
