@@ -165,6 +165,7 @@ brew 'hwloc'
 brew 'hyperfine'
 brew 'icu4c@76'
 brew 'icu4c@77'
+brew 'icu4c@78'
 brew 'iftop'
 brew 'imath'
 brew 'influxdb-cli'
@@ -298,7 +299,7 @@ brew 'macos-term-size'
 brew 'make'
 brew 'mas'
 brew 'maven'
-brew 'mbedtls'
+brew 'mbedtls@3'
 brew 'md4c'
 brew 'mercurial'
 brew 'mesa'
@@ -623,7 +624,6 @@ brew 'sce'
 brew 'to-prod'
 brew 'to-staging'
 brew 'trigger-ci'
-brew 'vault'
 cask 'actl'
 cask 'atlas'
 cask 'bzl'
@@ -637,9 +637,10 @@ cask 'ddr'
 cask 'ddsign'
 cask 'ddtool'
 cask 'orcactl'
+cask 'rapid'
 cask 'tctl-data-converter'
 cask 'tctl-local-auth'
-cask 'tctx'
+cask 'datadog/tap/vault'
 
 tap 'derailed/k9s'
 
@@ -688,11 +689,11 @@ tap 'withgraphite/tap'
 brew 'graphite'
 
 # App Store applications
-mas 'Amazon Kindle (7.45.1)', id: 302584613
-mas 'Dashlane (6.2544.0)', id: 517914548
+mas 'Amazon Kindle (7.47)', id: 302584613
+mas 'Dashlane (6.2547.0)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
 mas 'Keynote (14.1)', id: 409183694
 mas 'Magnet (3.0.7)', id: 441258766
 mas 'Numbers (14.1)', id: 409203825
 mas 'Pages (14.1)', id: 409201541
-mas 'WhatsApp (25.32.75)', id: 310633997
+mas 'WhatsApp (25.35.74)', id: 310633997
