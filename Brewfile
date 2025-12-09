@@ -676,9 +676,6 @@ tap 'tektoncd/tools'
 tap 'thethingsnetwork/lorawan-stack'
 brew 'ttn-lw-cli'
 
-tap 'ubuntu/microk8s'
-brew 'microk8s'
-
 tap 'wata727/tflint'
 
 tap 'weaveworks/tap'
