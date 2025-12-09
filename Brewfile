@@ -651,8 +651,6 @@ tap 'goreleaser/tap'
 tap 'gromgit/fuse'
 brew 'sshfs-mac'
 
-tap 'hashicorp/tap'
-
 tap 'helm/tap'
 
 tap 'heroku/brew'
