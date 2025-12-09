@@ -640,7 +640,7 @@ cask 'orcactl'
 cask 'rapid'
 cask 'tctl-data-converter'
 cask 'tctl-local-auth'
-brew 'hashicorp/tap/vault'
+cask 'tctx'
 
 tap 'derailed/k9s'
 
@@ -650,6 +650,8 @@ tap 'goreleaser/tap'
 
 tap 'gromgit/fuse'
 brew 'sshfs-mac'
+
+tap 'hashicorp/tap'
 
 tap 'helm/tap'
 
@@ -682,6 +684,9 @@ tap 'weaveworks/tap'
 
 tap 'withgraphite/tap'
 brew 'graphite'
+
+# Other Homebrew packages
+brew 'microk8s'
 
 # App Store applications
 mas 'Amazon Kindle (7.47)', id: 302584613
