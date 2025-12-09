@@ -640,7 +640,7 @@ cask 'orcactl'
 cask 'rapid'
 cask 'tctl-data-converter'
 cask 'tctl-local-auth'
-cask 'datadog/tap/vault'
+brew 'datadog/tap/vault'
 
 tap 'derailed/k9s'
 
