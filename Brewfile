@@ -425,6 +425,7 @@ brew 'rtmpdump'
 brew 'rubberband'
 brew 'ruby'
 brew 'ruby-build'
+brew 'rust'
 brew 'screen'
 brew 'sdl2'
 brew 'sfsexp'
@@ -640,7 +641,6 @@ cask 'orcactl'
 cask 'rapid'
 cask 'tctl-data-converter'
 cask 'tctl-local-auth'
-cask 'tctx'
 
 tap 'derailed/k9s'
 
@@ -652,6 +652,7 @@ tap 'gromgit/fuse'
 brew 'sshfs-mac'
 
 tap 'hashicorp/tap'
+brew 'vault'
 
 tap 'helm/tap'
 
@@ -685,9 +686,6 @@ tap 'weaveworks/tap'
 tap 'withgraphite/tap'
 brew 'graphite'
 
-# Other Homebrew packages
-brew 'microk8s'
-
 # App Store applications
 mas 'Amazon Kindle (7.47)', id: 302584613
 mas 'Dashlane (6.2547.0)', id: 517914548
@@ -696,4 +694,4 @@ mas 'Keynote (14.1)', id: 409183694
 mas 'Magnet (3.0.7)', id: 441258766
 mas 'Numbers (14.1)', id: 409203825
 mas 'Pages (14.1)', id: 409201541
-mas 'WhatsApp (25.35.74)', id: 310633997
+mas 'WhatsApp (25.36.73)', id: 310633997
