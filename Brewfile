@@ -655,6 +655,7 @@ cask 'rapid'
 cask 'tctl-data-converter'
 cask 'tctl-local-auth'
 cask 'bits'
+tap oven-sh/bun
 
 tap 'derailed/k9s'
 
