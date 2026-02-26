@@ -126,6 +126,7 @@ brew 'git-secrets'
 brew 'glances'
 brew 'glib'
 brew 'glow'
+brew 'glpk'
 brew 'gmime'
 brew 'gmp'
 brew 'gnu-sed'
@@ -213,6 +214,7 @@ brew 'libcbor'
 brew 'libcerf'
 brew 'libclc'
 brew 'libdatrie'
+brew 'libde265'
 brew 'libdeflate'
 brew 'libepoxy'
 brew 'libev'
@@ -223,6 +225,7 @@ brew 'libfontenc'
 brew 'libgcrypt'
 brew 'libgit2'
 brew 'libgpg-error'
+brew 'libheif'
 brew 'libice'
 brew 'libiconv'
 brew 'libidn'
@@ -293,6 +296,7 @@ brew 'litehtml'
 brew 'little-cms2'
 brew 'llhttp'
 brew 'llvm'
+brew 'llvm@21'
 brew 'lmdb'
 brew 'lpeg'
 brew 'lsusb'
@@ -442,6 +446,7 @@ brew 'rust'
 brew 'screen'
 brew 'sdl2'
 brew 'sfsexp'
+brew 'shared-mime-info'
 brew 'shellcheck'
 brew 'simdjson'
 brew 'simdutf'
@@ -549,7 +554,6 @@ cask 'fing'
 cask 'finicky'
 cask 'font-consolas-for-powerline'
 cask 'font-d2coding'
-cask 'font-dashicons'
 cask 'font-devicons'
 cask 'font-fira-code'
 cask 'font-fira-mono'
@@ -706,12 +710,16 @@ tap 'weaveworks/tap'
 tap 'withgraphite/tap'
 brew 'graphite'
 
+# Other Cask applications
+cask 'font-dashicons'
+
 # App Store applications
 mas 'Amazon Kindle (7.47)', id: 302584613
-mas 'Dashlane (6.2547.0)', id: 517914548
+mas 'Dashlane (6.2605.1)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
 mas 'Keynote (14.1)', id: 409183694
 mas 'Magnet (3.0.7)', id: 441258766
 mas 'Numbers (14.1)', id: 409203825
 mas 'Pages (14.1)', id: 409201541
+mas 'Push Security (2.17.9)', id: 1596916655
 mas 'WhatsApp (26.2.74)', id: 310633997
