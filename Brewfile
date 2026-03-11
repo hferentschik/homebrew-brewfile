@@ -126,6 +126,7 @@ brew 'git-secrets'
 brew 'glances'
 brew 'glib'
 brew 'glow'
+brew 'glpk'
 brew 'gmime'
 brew 'gmp'
 brew 'gnu-sed'
@@ -365,6 +366,7 @@ brew 'pango'
 brew 'parallel'
 brew 'pcre'
 brew 'pcre2'
+brew 'pdftk-java'
 brew 'perl'
 brew 'pinentry'
 brew 'pinentry-mac'
@@ -372,8 +374,6 @@ brew 'pipenv'
 brew 'pixman'
 brew 'pkgconf'
 brew 'pnpm'
-brew 'postgresql@14'
-brew 'postgresql@18'
 brew 'procs'
 brew 'protobuf'
 brew 'protobuf@21'
@@ -722,5 +722,5 @@ mas 'Keynote (14.1)', id: 409183694
 mas 'Magnet (3.0.7)', id: 441258766
 mas 'Numbers (14.1)', id: 409203825
 mas 'Pages (14.1)', id: 409201541
-mas 'Push Security (2.17.9)', id: 1596916655
+mas 'Push Security (2.18.27)', id: 1596916655
 mas 'WhatsApp (26.2.74)', id: 310633997
