@@ -66,7 +66,6 @@ brew 'cjson'
 brew 'clusterctl'
 brew 'cmake'
 brew 'cmocka'
-brew 'colima'
 brew 'coreutils'
 brew 'crane'
 brew 'cryptography'
@@ -88,6 +87,7 @@ brew 'docker-credential-helper'
 brew 'docker-credential-helper-ecr'
 brew 'docutils'
 brew 'double-conversion'
+brew 'duckdb'
 brew 'duf'
 brew 'duktape'
 brew 'eksctl'
@@ -148,6 +148,7 @@ brew 'gpgme'
 brew 'graphite2'
 brew 'graphviz'
 brew 'grep'
+brew 'gron'
 brew 'grpc'
 brew 'grpcurl'
 brew 'gsettings-desktop-schemas'
@@ -184,6 +185,7 @@ brew 'isl'
 brew 'jansson'
 brew 'jasper'
 brew 'jemalloc'
+brew 'jless'
 brew 'jpeg'
 brew 'jpeg-turbo'
 brew 'jpeg-xl'
@@ -296,11 +298,11 @@ brew 'libxt'
 brew 'libxtst'
 brew 'libyaml'
 brew 'libzip'
-brew 'lima'
 brew 'litehtml'
 brew 'little-cms2'
 brew 'llhttp'
 brew 'llvm'
+brew 'llvm@21'
 brew 'lmdb'
 brew 'lpeg'
 brew 'lsusb'
@@ -325,6 +327,7 @@ brew 'md4c'
 brew 'mercurial'
 brew 'merve'
 brew 'mesa'
+brew 'miller'
 brew 'mkcert'
 brew 'mockery'
 brew 'molten-vk'
@@ -458,7 +461,9 @@ brew 'rust'
 brew 'screen'
 brew 'sdl2'
 brew 'sfsexp'
+brew 'shared-mime-info'
 brew 'shellcheck'
+brew 'shfmt'
 brew 'simdjson'
 brew 'simdutf'
 brew 'six'
@@ -489,7 +494,6 @@ brew 'terraform-docs'
 brew 'terragrunt'
 brew 'tesseract'
 brew 'tfenv'
-brew 'tflint'
 brew 'theora'
 brew 'thrift'
 brew 'tig'
@@ -718,16 +722,19 @@ tap 'weaveworks/tap'
 tap 'withgraphite/tap'
 brew 'graphite'
 
+# Other Homebrew packages
+brew 'tflint'
+
 # Other Cask applications
 cask 'font-dashicons'
 
 # App Store applications
-mas 'Amazon Kindle (7.47)', id: 302584613
-mas 'Dashlane (6.2605.1)', id: 517914548
+mas 'Amazon Kindle (7.58)', id: 302584613
+mas 'Dashlane (6.2619.0)', id: 517914548
 mas 'Galaxy (1.2.2)', id: 572868480
-mas 'Keynote (14.1)', id: 409183694
+mas 'Keynote (14.5)', id: 409183694
 mas 'Magnet (3.0.7)', id: 441258766
-mas 'Numbers (14.1)', id: 409203825
-mas 'Pages (14.1)', id: 409201541
+mas 'Numbers (14.5)', id: 409203825
+mas 'Pages (14.5)', id: 409201541
 mas 'Push Security (2.18.27)', id: 1596916655
-mas 'WhatsApp (26.10.74)', id: 310633997
+mas 'WhatsApp (26.18.72)', id: 310633997
