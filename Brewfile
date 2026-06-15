@@ -623,7 +623,6 @@ tap 'buo/cask-upgrade'
 tap 'dashlane/tap'
 
 tap 'datadog-labs/pack'
-brew 'pup'
 
 tap 'datadog/tap'
 cask 'actl'
