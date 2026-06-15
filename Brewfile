@@ -622,7 +622,7 @@ tap 'buo/cask-upgrade'
 
 tap 'dashlane/tap'
 
-tap 'datadog-labs/packs'
+tap 'datadog-labs/pack'
 cask 'pup'
 
 tap 'datadog/tap'
