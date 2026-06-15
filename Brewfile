@@ -622,6 +622,9 @@ tap 'buo/cask-upgrade'
 
 tap 'dashlane/tap'
 
+tap 'datadog-labs/packs'
+cask 'pup'
+
 tap 'datadog/tap'
 cask 'actl'
 cask 'atlas'
