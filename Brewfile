@@ -575,7 +575,6 @@ cask 'kap'
 cask 'keycastr'
 cask 'ledger-wallet'
 cask 'lens'
-cask 'linkliar'
 cask 'macfuse'
 cask 'meetingbar'
 cask 'mitmproxy'
@@ -685,9 +684,6 @@ tap 'weaveworks/tap'
 
 tap 'withgraphite/tap'
 brew 'graphite'
-
-# Other Homebrew packages
-brew 'tflint'
 
 # Other Cask applications
 cask 'font-dashicons'
