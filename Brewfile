@@ -643,7 +643,6 @@ brew 'sce'
 brew 'to-prod'
 brew 'to-staging'
 brew 'trigger-ci'
-brew 'datadog/tap/vault'
 cask 'actl'
 cask 'atlas'
 cask 'bzl'
@@ -668,11 +667,12 @@ tap 'github/gh'
 
 tap 'goreleaser/tap'
 
-
 tap 'hashicorp/tap'
 brew 'terraform'
 
 tap 'helm/tap'
+
+tap 'heroku/brew'
 
 tap 'jbangdev/tap'
 
@@ -694,7 +694,6 @@ tap 'stefanprodan/tap'
 tap 'tektoncd/tools'
 
 tap 'thethingsnetwork/lorawan-stack'
-brew 'ttn-lw-cli'
 
 tap 'wata727/tflint'
 
