@@ -699,4 +699,3 @@ mas 'Magnet (3.0.7)', id: 441258766
 mas 'Numbers (14.5)', id: 409203825
 mas 'Pages (14.5)', id: 409201541
 mas 'Push Security (2.18.27)', id: 1596916655
-mas 'WhatsApp (26.18.72)', id: 310633997
