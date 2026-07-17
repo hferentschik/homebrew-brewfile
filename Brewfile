@@ -690,9 +690,6 @@ tap 'weaveworks/tap'
 tap 'withgraphite/tap'
 brew 'graphite'
 
-# Other Cask applications
-cask 'font-dashicons'
-
 # App Store applications
 mas 'Amazon Kindle (7.58)', id: 302584613
 mas 'Dashlane (6.2619.0)', id: 517914548
