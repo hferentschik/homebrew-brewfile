@@ -392,6 +392,7 @@ brew 'pygments'
 brew 'pygobject3'
 brew 'python-setuptools'
 brew 'python@3.11'
+brew 'python@3.13'
 brew 'python@3.14'
 brew 'qpdf'
 brew 'qt'
@@ -652,8 +653,6 @@ cask 'ddtool'
 cask 'git-dd'
 cask 'orcactl'
 cask 'rapid'
-cask 'tctl-data-converter'
-cask 'tctl-local-auth'
 
 tap 'derailed/k9s'
 
@@ -688,6 +687,10 @@ tap 'weaveworks/tap'
 
 tap 'withgraphite/tap'
 brew 'graphite'
+
+# Other Cask applications
+cask 'tctl-data-converter'
+cask 'tctl-local-auth'
 
 # App Store applications
 mas 'Amazon Kindle (7.58)', id: 302584613
