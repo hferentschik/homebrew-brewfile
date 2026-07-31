@@ -651,6 +651,7 @@ cask 'ddr'
 cask 'ddsign'
 cask 'ddtool'
 cask 'git-dd'
+cask 'last-resort-cli'
 cask 'orcactl'
 cask 'rapid'
 
