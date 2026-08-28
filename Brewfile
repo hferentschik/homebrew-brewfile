@@ -299,6 +299,7 @@ brew 'litehtml'
 brew 'little-cms2'
 brew 'llhttp'
 brew 'llvm'
+brew 'llvm@22'
 brew 'lmdb'
 brew 'lpeg'
 brew 'lsusb'
@@ -694,7 +695,7 @@ cask 'tctl-local-auth'
 
 # App Store applications
 mas 'Amazon Kindle (7.58)', id: 302584613
-mas 'Dashlane (6.2619.0)', id: 517914548
+mas 'Dashlane (6.2632.0)', id: 517914548
 mas 'Keynote (14.5)', id: 409183694
 mas 'Magnet (3.0.7)', id: 441258766
 mas 'Numbers (14.5)', id: 409203825
